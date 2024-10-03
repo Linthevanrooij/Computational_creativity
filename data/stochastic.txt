@@ -1,0 +1,9 @@
+---
+<poem>: <phrase> <predicate><conjunction><phrase> <predicate>.
+<phrase>: <operator_subject> ARE
+<operator_subject>: THE `RiTa.pluralize("<subject>")` | <operator> `RiTa.pluralize("<subject>")`
+<operator>: ALL | NO | NOT ALL
+<conjunction>: <>AND<> | <>OR<> | <>THEREFORE<> | .<>[5]
+<predicate>: OPEN | SILENT | STRONG | GOOD | NARROW | NEAR | NEW | QUIET | FAR | DEEP | LATE | DARK | FREE | LARGE | OLD | ANGRY
+<subject>: COUNT | STRANGER | LOOK | CHURCH | CASTLE | PICTURE | VILLAGE | TOWER | FARMER | WAY | GUEST | DAY | HOUSE | TABLE |EYE
+<>: " "

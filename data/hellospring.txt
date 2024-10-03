@@ -1,0 +1,12 @@
+---
+<stanza>: |-
+  Hello Spring.
+  Goodbye Winter.
+  Hello <spring-attribute>.
+  Goodbye <winter-attribute>.
+  Hello <spring-activity>.
+  Goodbye <winter-activity>.
+<spring-attribute>: warmth | brightness | grass | sun | flowers
+<winter-attribute>: cold | snow | cozyness | darkness | glühwein
+<spring-activity>: smelling flowers | picknicking | cycling
+<winter-activity>: snowball fights | ice-skating | making a snowman | sitting by a fire
