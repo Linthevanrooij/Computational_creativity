@@ -1,0 +1,22 @@
+<start>: <line1> % <line2> % <line3> % <line4> % <line5>
+
+<line1>: <jj>
+<line2>: <nn> <vbz> | <nn> <vbd> | <nn> <vbg> | <nn> <vbn>
+<line3>: <pronoun1> <vbz> <undefined> | <pronoun1> <vbd> <undefined> | <pronoun1> <vbg> <undefined> | <pronoun1> <vbn> <undefined> | <pronoun2> <vb> <undefined> | <pronoun2> <vbd> <undefined> | <pronoun2> <vbg> <undefined> | <pronoun2> <vbn> <undefined> 
+<line4>: <i> <vb> <pronoun3> <jj> | <i> <vbd> <pronoun3> <jj> | <i> <vbn> <pronoun3> <jj>
+<line5>: <uh>
+
+<jj>: red | blue | yellow | green | warm | cold | bright | dark | kind
+<nn>: sky | sea | child | flower | sun | wind | moon | grass | girl | baby
+<vb>: glow | shine | flow | whisper | sing | breathe
+<vbd>: glowed | shined | flowed | whispered | sang | breathed
+<vbz>: glows | shines | flows | breathes | whispers | sings
+<vbg>: glowing | shining | flowing | breathing | whispering | singing
+<vbn>: drowned | replaced | gone | been | laid
+<pronoun1>: he | she | it
+<pronoun2>: you | we | they
+<pronoun3>: her | him | it
+<undefined>: softly | away | slowly | deeply | bright | high | low
+<i>: I
+<relation>: love | see | feel | touch | think
+<uh>: yeah | yo
