@@ -1,32 +1,31 @@
-let SUBJECTS = ['COUNT', 'STRANGER', 'LOOK', 'CHURCH', 'CASTLE', 'PICTURE',
-  'EYE', 'VILLAGE', 'TOWER', 'FARMER', 'WAY', 'GUEST', 'DAY',
-  'HOUSE', 'TABLE', 'LABOURER'];
-let PREDICATES = ['OPEN', 'SILENT', 'STRONG', 'GOOD', 'NARROW', 'NEAR',
-    'NEW', 'QUIET', 'FAR', 'DEEP', 'LATE', 'DARK', 'FREE',
-    'LARGE', 'OLD', 'ANGRY'];
+let yaml, grammar;
 
-let CONJUNCTIONS = [' AND ', ' OR ', ' THEREFORE ', '. ', '. ', '. ', '. ', '. '];
-
-let OPERATORS = ['A', 'EVERY', 'NO', 'NOT EVERY'];
-
-function generate_phrase() {
-let text = random(OPERATORS) + ' ' + random(SUBJECTS);
-if (text == 'A EYE') { text = 'AN EYE'; }
-return text + ' IS ';
-}
-
-function generate_poem() {
-return generate_phrase() +
-random(PREDICATES) + random(CONJUNCTIONS) +
-generate_phrase() + random(PREDICATES) + '.\n';
+function preload() {
+  yaml = loadStrings('elfje_2.txt');
 }
 
 function setup() {
-createCanvas(500, 40);
+  createCanvas(400, 200);
+  textAlign(CENTER, CENTER);
+  textSize(16);
+
+  grammar = new RiGrammar(yaml.join('\n'));
 }
 
 function draw() {
-background(220);
-text(generate_poem(), 10, 24);
-frameRate(0.2);
+  background(220);
+
+  // Generate elfje
+  let elfje = grammar.expand().replaceAll("%", "\n");
+
+  // Line layout
+  let lines = elfje.split('\n');
+  let allLines = lines.join('\n');  
+  text(allLines, width / 2, height / 2);
+  
+  // split() > Splits a String into pieces and returns an array containing the pieces.
+  // join() > Combines an array of strings into one string.
+
+  frameRate(0.15);
 }
+

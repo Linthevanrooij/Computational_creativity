@@ -1,22 +1,24 @@
 <start>: <line1> % <line2> % <line3> % <line4> % <line5>
 
 <line1>: <jj>
-<line2>: <nn> <vbz> | <nn> <vbd> | <nn> <vbg> | <nn> <vbn>
-<line3>: <pronoun1> <vbz> <undefined> | <pronoun1> <vbd> <undefined> | <pronoun1> <vbg> <undefined> | <pronoun1> <vbn> <undefined> | <pronoun2> <vb> <undefined> | <pronoun2> <vbd> <undefined> | <pronoun2> <vbg> <undefined> | <pronoun2> <vbn> <undefined> 
-<line4>: <i> <vb> <pronoun3> <jj> | <i> <vbd> <pronoun3> <jj> | <i> <vbn> <pronoun3> <jj>
+<line2>: <nn> <vbz> | <nn> <vbd> | <nn> <vbg> | <nn> <vbn> | <nns> <vb> | <nns> <vbd> | <nns> <vbg> | <nns> <vbn>
+<line3>: <pronoun1> <vbz> <jj> | <pronoun1> <vbd> <jj> | <pronoun1> <vbg> <jj> | <pronoun1> <vbn> <jj> | <pronoun2> <vb> <jj> | <pronoun2> <vbd> <jj> | <pronoun2> <vbg> <jj> | <pronoun2> <vbn> <jj> |<pronoun1> <vbz> <nn> | <pronoun1> <vbd> <nn> | <pronoun1> <vbg> <nn> | <pronoun1> <vbn> <nn> | <pronoun2> <vb> <nn> | <pronoun2> <vbd> <nn> | <pronoun2> <vbg> <nn> | <pronoun2> <vbn> <nn> | <pronoun1> <vbz> <nns> | <pronoun1> <vbd> <nns> | <pronoun1> <vbg> <nns> | <pronoun1> <vbn> <nns> | <pronoun2> <vb> <nns> | <pronoun2> <vbd> <nns> | <pronoun2> <vbg> <nns> | <pronoun2> <vbn> <nns>
+<line4>: <i> <vb> <pronoun3> <jj> | <i> <vbd> <pronoun3> <jj> | <i> <vbn> <pronoun3> <jj> | <i> <vb> <pronoun3> <rb> | <i> <vbd> <pronoun3> <rb> | <i> <vbn> <pronoun3> <rb>
 <line5>: <uh>
 
-<jj>: red | blue | yellow | green | warm | cold | bright | dark | kind
-<nn>: sky | sea | child | flower | sun | wind | moon | grass | girl | baby
-<vb>: glow | shine | flow | whisper | sing | breathe
-<vbd>: glowed | shined | flowed | whispered | sang | breathed
-<vbz>: glows | shines | flows | breathes | whispers | sings
-<vbg>: glowing | shining | flowing | breathing | whispering | singing
+<jj>: little | bad | mad | sad | dummy | low | wet | slow | deep | proud | bright | top | next | same | shameful | fake | okay | proper
+<nn>: uh | thing | somethin | nigga | brain | wiz | fuckin | chick | ain't | bitch | show | world | we've | baby | boulevard | unhook | bra | shit | freak | peeped | pussy | power | feelin | knowin | drillin | sayin | killin | pain | cause | healin | nah | girl | dog | wanna | everything | mean | time | right | darkness | gon | alright | hotel | ceilin | blow | i'm | willin | everytime | smoke | mind | word | tryin | livin | lie | they'd | love | go | prison | tv | screen | unzip | jeans | workin | jerkin | non | talkin | sweat | drip | brother | blindin | findin | y'all | game | givin | birth | coward | type | head | recordin | change | night
+<nns>: brains | it's | lights | things | l's | times | rules | niggas | hoes | sons | tracks | that's
+<vb>: come | go | look | do | get | feel | tell | need | turn | seem | be | please | hear | put | see | die | stop | grow | stay | know | play | make | start | relax | reach
+<vbd>: had | gave | tried | broke | was | got | spoke | told | lost | reminded | took | said | rubbed | hit
+<vbz>: is | feels | seems | lights | mirrors
+<vbg>: goin' | shinin' | flowin' | runnin' | fuckin'
 <vbn>: drowned | replaced | gone | been | laid
 <pronoun1>: he | she | it
 <pronoun2>: you | we | they
 <pronoun3>: her | him | it
-<undefined>: softly | away | slowly | deeply | bright | high | low
+<in>: like | with | about | at | on | for | before | that | by | in | off | while | of | over
 <i>: I
-<relation>: love | see | feel | touch | think
+<rb>: even | so | just | really | still | far | ever | then | down | enough | previously | currently | now | well | yet | back | family
 <uh>: yeah | yo
+
