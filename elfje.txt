@@ -1,0 +1,17 @@
+<start>: <line1> % <line2> % <line3> % <line4> % <line5>
+
+<line1>: <adjective>
+<line2>: <subject1> <verb>
+<line3>: <pronoun> <verb> <undefined>
+<line4>: <personal_pronoun> <relation> <subject2> <verb>
+<line5>: <closing_word>
+
+<adjective>: red | blue | yellow | green | warm | cold | bright | dark | kind
+<subject1>: sky | sea | child | flower | sun | wind | moon | grass | girl | baby
+<verb>: glow | shine | flow | breathe | whisper | sing
+<pronoun>: he | she | you | it | we  | they
+<undefined>: softly | away | slowly | deeply | bright | high | low
+<personal_pronoun>: I | me
+<relation>: love | see | feel | touch | think
+<subject2>: he | it | she
+<closing_word>: yeah | yo
