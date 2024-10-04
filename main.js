@@ -1,6 +1,6 @@
 let yaml;
 let grammar;
-let firstSong, secondSong;
+let firstSong, secondSong, thirdSong;
 let words;
 let functions;
 let exclude = ["nigga", "niggas"];
@@ -24,8 +24,10 @@ function preload() {
   // load lyrics
   firstSong = loadStrings('data/lightsPlease.txt');
   secondSong = loadStrings('data/noRoleModelz.txt');
+  thirdSong = loadStrings('data/middleChild.txt');
   console.log(firstSong);
   console.log(secondSong);
+  console.log(thirdSong);
 }
 
 function setup() {
@@ -36,7 +38,8 @@ function setup() {
   // make into one string
   let song1 = firstSong.join(' ');
   let song2 = secondSong.join(' ');
-  songText = song1 + song2
+  let song3 = thirdSong.join(' ')
+  songText = song1 + song2 + song3
   songText = songText.toLowerCase()
   words = songText.split(/([ ".,!,?])/);
   functions = RiTa.getPosTags(words);
@@ -55,11 +58,6 @@ function setup() {
   console.log(result);
 
   grammar = RiGrammar(result);
-
-
-  // Save the text file.
-  // saveStrings(result, 'data/first_grammar', '.txt');
-
 
 }
 
@@ -105,13 +103,12 @@ function create_dict(functions, words) {
 function draw() {
   background(230, 240, 255);
   text(allLines, width / 2, height / 2);
-  // frameRate(0.1);
 }
 
 function mouseReleased() {
+  // to generate a new poem with each click
   let elfje = grammar.expandFrom('<start>');
   let lines = elfje.split('%');
   allLines = lines.join('\n');
   console.log(allLines);
-  // text(allLines, width / 2, height / 2);
 }
