@@ -32,14 +32,16 @@ Line 4: 	four words: start this line with ‘I’. In this line, your relation t
 
 Line 5: 	one word: closing word
 
-After setting up all production rules, we successfully ran the poem generator. Next, we could easily add other lyrics, by tokenizing, tagging, and incorporating them into the text file.
+After setting up all production rules, we successfully ran the poem generator. Now, we could easily add other lyrics, by tokenizing, tagging, and incorporating them into the text file. In total, we added three songs of J. Cole: Lights Please, No Role Modelz, and Middle Child.
 
+04/10/2024
+
+Next, we started working on the presentation. To visualize an audio player, we chose to use Canva instead of PowerPoint, since Canva is a design tool that allowed us to easily create a mock-up of a phone screen with a Spotify-like interface. The audio for the presentation was generated using two programs: TopMediai (https://www.topmediai.com/app/text-to-speech/) was used to produce the speech and generate J. Cole's voice for the poems that we selected; Tuney (https://app.tuney.io/) was used to add a beat behind the generated speech. Additionally, we used an text-to-image generator (https://www.imagine.art/dashboard/tool/text-to-image) to create custom album covers based on the text of the poems.
 
 ## Process and reflections on development
+03/10/2024
 
 reflection on analyzing lyrics
-
-
 
 
 
@@ -47,6 +49,11 @@ The large variety of part-of-speech tags made setting up the production rules mo
 
 
 ## Reflect on experience of generative AI
+04/10/2024
+
+We think the use of generative AI significantly elevated the output of our poem generator. Because the poems sometimes lacked coherence or didn’t always make perfect sense, having a voice like J. Cole narrate them gave the poems a more realistic, rap-like feel. Hearing the poems spoken aloud made them feel more like rap verses rather than disjointed text on a page. The addition of a beat further enhanced this effect, transforming the poems into something more rhythmic and much closer to the vibe of actual rap songs. The AI-generated album covers also contributed to the overall presentation, because it added a fun and creative element to the audio interface mock-up.
+
+
 
 ## Reflection on the question of how to evaluate the creativity of your system 
 

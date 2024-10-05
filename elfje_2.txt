@@ -19,6 +19,6 @@
 <pronoun3>: her | him | it
 <in>: like | with | about | at | on | for | before | that | by | in | off | while | of | over
 <i>: I
-<rb>: even | so | just | really | still | far | ever | then | down | enough | previously | currently | now | well | yet | back | family
+<rb>: even | so | just | really | still | far | ever | then | down | enough | previously | currently | now | well | yet | back
 <uh>: yeah | yo
 
