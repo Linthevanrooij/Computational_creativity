@@ -62,20 +62,23 @@ Based on [Ritchies Empirical Criteria](https://link.springer.com/article/10.1007
 - quality
 
 1. Typicality
-This addresses whether the produced output is a recognizable example of the target genre. In our case, if the produced Elfje is still to be recognized as the same style as JCole. Since we did not change any of the type of wording (keeping existin' the same instead of making it correct), the system included this in the poems as well, keeping the style more or less the same. Also, the choice of presentation style attributed a lot to the typicality of the poem. With the rhythmic style of the Elfje, it kept the same rhythmic style as normal in this genre. 
+This addresses whether the produced output is a recognizable example of the target genre. In our case, if the produced Elfje is still to be recognized as the same style as JCole. Since we did not change any of the type of wording (keeping existin' the same instead of making it correct), the system included this in the poems as well, keeping the style of language more or less the same. Also, the choice of presentation style attributed a lot to the typicality. With the rhythmic style of the Elfje, it kept the same rhythmic style as normal in this genre. Adding a beat to the output of speech and creating a novel image as covers contributed to the recognizability of the output in the same context as normal songs. 
 
 
 2. Novelty
-With novelty, it is evaluated how dissimilar the produced output is from the inspiring set (our three chosen songs) within the context of the style of JCole. Since we used three different songs there are a lot of different combinations that the system could choose from. Within these combinations, there are existing themes like light and bright but within a whole different context, i.e. lights being proud and making the king bright instead of the darkness as in the original song. With these new combinations, you are going to search for meaning within the poems, making them novel and able to stand alone, apart from the original meaning behind the words in the songtexts. 
+With novelty, it is evaluated how dissimilar the produced output is from the inspiring set (our three chosen songs) within the context of the style of JCole. Since we used three different songs there are a lot of different combinations that the system could choose from. Within these combinations, there are existing themes like light and bright but within a whole different context, i.e. lights being proud and making the king bright instead of the darkness as in the original song. With these new combinations, you are going to search for meaning within the poems, making them novel and able to stand alone, apart from the original meaning behind the words in the songtexts. Although there are not completely novel words in the poem itself, the combination and meaning of words is novel. Moreover, the produced speech and album covers are novel to the system, as they are not present in the inspiring set. 
 
 3. Quality
 Quality addresses the value of the artifact as an example of the target genre. In other words, are the produced Elfjes still grammatically correct, given the style of rap, are they coherent and are they saying something? In the selected poems, as said before, you as the reader or listener are going to search for meaning behind the words. And given the fact that the style is not 100% grammatically correct (just as rap itself), it still has a lot of coherence (light/ bright or a mad toothbrush, selling it fast) and even rhyme (mad toothbrush had). 
 
+We asked the following questions to someone who is an expert with rap and JCole's music in the context of the Elfje alone (textual) and together with the presentation style (speech, beat, image). 
+
 1 (completely disagree) - 5 (completely agree)
-- I recognize the style of rap in the output
-- I recognize the style of JCole in the output 
-- If you know the three songs, would you say these poems created some novel content
-- Is the output new while adhering to the context of JCole?
+- I recognize the style of rap
+- I recognize the style of JCole
+- Would you say the output created some novel content?
+- Is the output novel while adhering to the context of JCole?
 - I find the output coherent 
-- I can find meaning behind the poems 
+- I can find meaning behind the output
 - I think the output is creative
+

@@ -41,17 +41,22 @@ function setup() {
   let song3 = thirdSong.join(' ')
   songText = song1 + song2 + song3
   songText = songText.toLowerCase()
+
+  // tokenize/ split words 
   words = songText.split(/([ ".,!,?])/);
+
+  // get tagged words
   functions = RiTa.getPosTags(words);
   console.log(words)
 
+  // make a dictionary with the output to have unique words in each key/tag
   let dic = create_dict(functions, words);
   console.log(dic);
 
 
   // Create an array.
   for (let key in dic) {
-    if (dic.hasOwnProperty(key) && key) { // Check if key is not empty
+    if (dic.hasOwnProperty(key) && key) { // check if key is not empty
       result += `<${key}>: ${dic[key].join(' | ')}\n`;
     }
   }
@@ -62,7 +67,7 @@ function setup() {
 }
 
 function create_dict(functions, words) {
-  let dictionary = { "vbg": [] }; // initialize with vbg 
+  let dictionary = { "vbg": [] }; // initialize with vbg because of occurance of vbg being detected as nn
 
   for (let i = 0; i < words.length; i++) {
     let func = functions[i];
@@ -70,12 +75,12 @@ function create_dict(functions, words) {
     const cleanWord = word.replace(/[?,"!@#$%^&*()_+=\-{}\[\];:<>]/g, '').trim();
     let cleanFunc = func.replace(/[?,"!@#$%^&*()_+=\-{}\[\];:<>]/g, '').trim();
 
-    // If the function (key) doesn't exist, create an empty array
+    // if the function (key) doesn't exist, create an empty array
     if (!dictionary[cleanFunc]) {
       dictionary[cleanFunc] = [];
     }
 
-    // if it is a word like diggin' place them in another category than noun
+    // if it is a vbg word but detected as noun like diggin' place them in another category than noun
     if (cleanFunc == "nn" && cleanWord.endsWith("in'")) {
       cleanFunc = "vbg"
     }
