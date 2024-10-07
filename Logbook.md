@@ -1,4 +1,4 @@
-# Log file of Computational Creativity Poem Generator 
+# Log file of Computational Creativity Poem Generator by Linthe van Rooij en Sanne Dekker
 
 ## Initial Idea of poetry generator
 _25/09/2024_
