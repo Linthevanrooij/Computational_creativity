@@ -18,7 +18,7 @@ _05/10/2024_
 
 Since powerpoint is still limited with the notation of audio, we found that our desinging platform Canva also allows transitions and audio as part of the design. We therefore changed the presentation style to a video containing all necessary elements, to simulate the experience of listening to the new released poems. 
 
-## Step-by-step account on how to tackled tasks (inspiring set, implement poem generator, presentation) + reflection of development
+## Step-by-step account on how to tackled tasks (inspiring set, implement poem generator, presentation) + reflection on development
 _03/10/2024_
 
 We chose to use grammars for our poem generator, similar to the grammar used in the haiku generator. We believed this approach would be most effective since there are structural similarities between a haiku and an elfje. Both poetic forms follow strict, predetermined patterns. In the case of the elfje, it adheres to a structure of eleven words distributed across five lines. This allowed us to define and maintain the specific word count and layout required for the elfje format. For our elfje, we set up a text file and started with a production rule of five lines. The non-terminal symbols can be defined after analyzing the rap lyrics.
