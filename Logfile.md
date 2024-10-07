@@ -18,7 +18,7 @@ _05/10/2024_
 
 Since powerpoint is still limited with the notation of audio, we found that our desinging platform Canva also allows transitions and audio as part of the design. We therefore changed the presentation style to a video containing all necessary elements, to simulate the experience of listening to the new released poems. 
 
-## Step-by-step account on how to tackled tasks (inspiring set, implement poem generator, presentation) + thoughts
+## Step-by-step account on how to tackled tasks (inspiring set, implement poem generator, presentation) + reflection of development
 _03/10/2024_
 
 We chose to use grammars for our poem generator, similar to the grammar used in the haiku generator. We believed this approach would be most effective since there are structural similarities between a haiku and an elfje. Both poetic forms follow strict, predetermined patterns. In the case of the elfje, it adheres to a structure of eleven words distributed across five lines. This allowed us to define and maintain the specific word count and layout required for the elfje format. For our elfje, we set up a text file and started with a production rule of five lines. The non-terminal symbols can be defined after analyzing the rap lyrics.
@@ -32,21 +32,13 @@ To analyse the rap lyrics, we used the RiTa library. We began by analyzing J. Co
 - Line 4: 	four words: start this line with ‘I’. In this line, your relation to the object or person is described.
 - Line 5: 	one word: closing word
 
-After setting up the production rules, we successfully ran the poem generator. Now, we could easily add other lyrics, by tokenizing/splitting, tagging, and incorporating them into the final grammar sheet. In total, we added three songs of J. Cole: [Lights Please](https://songteksten.net/lyric/8029/95243/j-cole/lights-please.html), [No Role Modelz](https://lyrics.lyricfind.com/lyrics/j-cole-no-role-modelz), and [Middle Child](https://lyrics.lyricfind.com/lyrics/j-cole-middle-child). We selected four generated poems for our presentation.
+The large variety of part-of-speech tags made setting up the production rules more complex than initially expected. For example, ensuring that the elfje was grammatically correct required matching the appropriate type of verb with the corresponding pronoun. This resulted in numerous potential tag combinations for the production rules. Another challenge we faced was deciding which specific tags to use within each line of the elfje to maintain both the poem's structure and grammatical accuracy. Although we resolved these issues, the generated poems still lack linguistic correctness sometimes. However, we realized that many rappers often rap without strict adherence to grammatical rules, so whenever our poems are linguistically incorrect, it could be argued that this aligns more closely with the rap theme.
+
+After completing the production rules, we successfully ran the poem generator. Now, we could easily add other lyrics, by tokenizing/splitting, tagging, and incorporating them into the final grammar sheet. In total, we added three songs of J. Cole: [Lights Please](https://songteksten.net/lyric/8029/95243/j-cole/lights-please.html), [No Role Modelz](https://lyrics.lyricfind.com/lyrics/j-cole-no-role-modelz), and [Middle Child](https://lyrics.lyricfind.com/lyrics/j-cole-middle-child). We selected four generated poems for our presentation.
 
 _04/10/2024_
 
 Next, we started working on the presentation. To visualize an audio player, we chose to use Canva instead of PowerPoint, since Canva is a design tool that allowed us to easily create a mock-up of a phone screen with a Spotify-like interface. The audio for the presentation was generated using two programs: TopMediai (https://www.topmediai.com/app/text-to-speech/) was used to produce the speech and generate J. Cole's voice for the poems that we selected; Tuney (https://app.tuney.io/) was used to add a beat behind the generated speech. Additionally, we used an text-to-image generator (https://www.imagine.art/dashboard/tool/text-to-image) to create custom album covers based on the text of the poems.
-
-
-## Process and reflections on development
-_03/10/2024_
-
-**Reflection on analyzing lyrics**
-
-
-
-The large variety of part-of-speech tags made setting up the production rules more complex than initially expected. For example, ensuring that the elfje was grammatically correct required matching the appropriate type of verb with the corresponding pronoun. This resulted in numerous potential tag combinations for the production rules. Another challenge we faced was deciding which specific tags to use within each line of the elfje to maintain both the poem's structure and grammatical accuracy. Although we resolved these issues, the generated poems still lack linguistic correctness sometimes. However, we realized that many rappers often rap without strict adherence to grammatical rules, so whenever our poems are linguistically incorrect, it could be argued that this aligns more closely with the rap theme.
 
 
 ## Reflect on experience of generative AI
