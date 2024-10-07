@@ -46,7 +46,7 @@ _04/10/2024_
 
 Working with three different AI programs considerably expanded the creative possibilities for presenting our poems. It was also surprising to realize just how much is possible with all the AI programs that are available today. For instance, the text-to-speech generator provided a wide selection of voices, which we could further customize by adjusting the speed, volume, pronunciation, and pitch. The beat generator also offered an extensive range of options, producing an endless supply of beats across various genres. For our project, we specifically chose beats from the hip-hop and R&B genres. As for the image generator, there were also numerous options available to generate images in a variety of styles.
 
-We think the use of generative AI significantly elevated the output of our poem generator. Because the poems sometimes lacked coherence or didn’t always make perfect sense, having a voice like J. Cole narrate them gave the poems a more realistic, rap-like feel. Hearing the poems spoken aloud made them feel more like rap lines rather than disjointed text on a page. The addition of a beat further enhanced this effect, and made the poems more rhythmic. The AI-generated album covers also contributed to the overall presentation, because it added a fun and creative element to the audio interface mock-up.
+We think the use of generative AI significantly elevated the output of our poem generator. Because the poems sometimes lacked perfect coherence, having a voice like J. Cole narrate them gave the poems a more realistic, rap-like feel, just as the real songs produced by J. Cole. Hearing the poems spoken aloud made them feel more like rap lines rather than disjointed text on a page. The addition of a beat further enhanced this effect, and made the poems more rhythmic. The AI-generated album covers also contributed to the overall presentation, because it added a fun and creative element to the audio interface mock-up.
 
 
 ## Reflection on the question of how to evaluate the creativity of your system 
@@ -58,22 +58,25 @@ Based on [Ritchies Empirical Criteria](https://link.springer.com/article/10.1007
 - quality
 
 1. Typicality
+
 This addresses whether the produced output is a recognizable example of the target genre. In our case, if the produced Elfje is still to be recognized as the same style as JCole. Since we did not change any of the type of wording (keeping existin' the same instead of making it correct), the system included this in the poems as well, keeping the style of language more or less the same. Also, the choice of presentation style attributed a lot to the typicality. With the rhythmic style of the Elfje, it kept the same rhythmic style as normal in this genre. Adding a beat to the output of speech and creating a novel image as covers contributed to the recognizability of the output in the same context as normal songs. 
 
 2. Novelty
+
 With novelty, it is evaluated how dissimilar the produced output is from the inspiring set (our three chosen songs) within the context of the style of JCole. Since we used three different songs there are a lot of different combinations that the system could choose from. Within these combinations, there are existing themes like light and bright but within a whole different context, i.e. lights being proud and making the king bright instead of the darkness as in the original song. With these new combinations, you are going to search for meaning within the poems, making them novel and able to stand alone, apart from the original meaning behind the words in the songtexts. Although there are not completely novel words in the poem itself, the combination and meaning of words is novel. Moreover, the produced speech and album covers are novel to the system, as they are not present in the inspiring set. 
 
 3. Quality
+
 Quality addresses the value of the artifact as an example of the target genre. In other words, are the produced Elfjes still grammatically correct, given the style of rap, are they coherent and are they saying something? In the selected poems, as said before, you as the reader or listener are going to search for meaning behind the words. And given the fact that the style is not 100% grammatically correct (just as rap itself), it still has a lot of coherence (light/ bright or a mad toothbrush, selling it fast) and even rhyme (mad toothbrush had). 
 
-We asked the following questions to someone who is an expert with rap and JCole's music in the context of the Elfje alone (textual) and together with the presentation style (speech, beat, image). 
+We asked the following questions to someone who is an expert with rap and JCole's music. With output, we mean the textual output of our system, in other words, the generated Elfjes. 
 
 1 (completely disagree) - 5 (completely agree)
-- I recognize the style of rap
-- I recognize the style of JCole
-- Would you say the output created some novel content?
-- Is the output novel while adhering to the context of JCole?
-- I find the output coherent 
-- I can find meaning behind the output
-- I think the output is creative
+- I recognize the style of JCole 3
+- Would you say the output created some novel content? 4
+- Is the output novel while adhering to the context of JCole? 4
+- I find the output coherent (given the style of rap) 5
+- I can find some meaning behind the output 3
+- I think the output is creative 5
 
+As shown in these evaluation results, the overall rating is 24/30. The overall creativity is rated as high as possible (5/5). When we look at the individual categories defined by Ritchie, quality, and novelty are rated the highest, while typicality is rated a bit lower. This short evaluation indicates that our system can create novel output with a high value, while still adhering to the style of JCole (3/5). 
