@@ -18,13 +18,13 @@ function draw() {
   // Generate elfje
   let elfje = grammar.expand().replaceAll("%", "\n");
 
-  // Line layout
+  // split() > Splits a String into pieces and returns an array containing the pieces.
+  // join() > Combines an array of strings into one string.
   let lines = elfje.split('\n');
   let allLines = lines.join('\n');  
   text(allLines, width / 2, height / 2);
   
-  // split() > Splits a String into pieces and returns an array containing the pieces.
-  // join() > Combines an array of strings into one string.
+
 
   frameRate(0.15);
 }
