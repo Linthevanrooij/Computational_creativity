@@ -23,7 +23,7 @@ PLAN
     
 3. standaard recept (template) met invul variabelen (Sanne)
 
-4. using genAI for presentation
+4. using genAI for presentation (Sanne / allen)
 
 
 5. hoe evalueren
