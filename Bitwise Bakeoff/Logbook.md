@@ -1,12 +1,7 @@
 # Log file of Computational Creativity Bitwise Bakeoff
 
 ## Initial Idea 
-
-
-Link to 20 different mochi recipes:
-''The Ultimate List of Mochi Flavors & Ideas (with 20 Easy Recipes)''
-https://allpurposeveggies.com/12967/12-mochi-flavors-easy-recipes-for-mochi-ice-cream-and-more/
-
+Mochi!!! 
 
 PLAN
 1. inspiring set recipe list

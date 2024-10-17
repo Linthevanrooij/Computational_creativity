@@ -1,0 +1,1809 @@
+{
+    "recipes": [
+        {
+            "name": "Strawberry Mochi",
+            "rating": 4.71,
+            "ingredients": [
+                {
+                    "amount": 8.0,
+                    "unit": "oz",
+                    "ingredient": "fresh strawberries"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar of choice"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "cornstarch, potato starch or tapioca starch"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweetened white bean paste (shiro an)"
+                }
+            ],
+            "servings": 8
+        },
+        {
+            "name": "Fresh Mango",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.6666666666666666,
+                    "unit": "cup",
+                    "ingredient": "ripened mango"
+                },
+                {
+                    "amount": 0.6666666666666666,
+                    "unit": "cup",
+                    "ingredient": "pastry cream, vanilla pudding or ice cream of choice"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Applesauce Mochi",
+            "rating": 4.37,
+            "ingredients": [
+                {
+                    "amount": 8.0,
+                    "unit": "oz",
+                    "ingredient": "unsweetened applesauce"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweetened red bean paste (koshi an)"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Sweet Potato",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mashed sweet potato"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.3333333333333333,
+                    "unit": "cup",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "scoops",
+                    "ingredient": "ice cream of choice"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Raspberry Chocolate",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "granulated sugar"
+                },
+                {
+                    "amount": 0.6666666666666666,
+                    "unit": "cup",
+                    "ingredient": "frozen raspberries, thawed"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "tablespoons",
+                    "ingredient": "chocolate hazelnut spread of choice"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Banana Chocolate",
+            "rating": 3.67,
+            "ingredients": [
+                {
+                    "amount": 0.6666666666666666,
+                    "unit": "cup",
+                    "ingredient": "mashed bananas"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "tablespoons",
+                    "ingredient": "cocoa powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "tablespoons",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 10.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sweetened white bean paste (shiro an)"
+                },
+                {
+                    "amount": 5.0,
+                    "unit": "(1 inch) slices",
+                    "ingredient": "fresh banana"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Tofu",
+            "rating": 4.56,
+            "ingredients": [
+                {
+                    "amount": 250.0,
+                    "unit": "g",
+                    "ingredient": "mashed silken firm tofu"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "granulated sugar of choice**"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "pkg",
+                    "ingredient": "sweetened adzuki beans"
+                }
+            ],
+            "servings": 5
+        },
+        {
+            "name": "Pumpkin",
+            "rating": 4.8,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "packed pumpkin puree"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "cornstarch, potato or tapioca starch"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "pumpkin puree"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "pumpkin pie spice"
+                },
+                {
+                    "amount": 300.0,
+                    "unit": "g",
+                    "ingredient": "sweetened white bean paste (shiro an)"
+                }
+            ],
+            "servings": 10
+        },
+        {
+            "name": "Savory Sweet Corn Mochi",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "(15 oz) can",
+                    "ingredient": "sweet corn kernels"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "granulated sugar"
+                },
+                {
+                    "amount": 12.0,
+                    "unit": "Tablespoons",
+                    "ingredient": "cream cheese of choice"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Pistachio Butter",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "granulated sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "almond milk, regular milk or water"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "pistachio butter"
+                },
+                {
+                    "amount": 0.6666666666666666,
+                    "unit": "cup",
+                    "ingredient": "PISTACHIO CUSTARD (recipe here)"
+                }
+            ],
+            "servings": 10
+        },
+        {
+            "name": "Black Sesame",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "black sesame flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "almond milk or water"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar of choice"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 7.0,
+                    "unit": "scoops",
+                    "ingredient": "ice cream of choice"
+                }
+            ],
+            "servings": 8
+        },
+        {
+            "name": "Purple Sweet Potato Mochi",
+            "rating": 4.86,
+            "ingredients": [
+                {
+                    "amount": 0.3333333333333333,
+                    "unit": "cup",
+                    "ingredient": "mashed purple sweet potato"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "tablespoons",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweetened white bean paste (shiro an)"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "pumpkin puree"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "pumpkin pie spice"
+                },
+                {
+                    "amount": 300.0,
+                    "unit": "g",
+                    "ingredient": "sweetened white bean paste (shiro an)"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Green Tea / Matcha (with a Twist",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 8.0,
+                    "unit": "oz",
+                    "ingredient": "applesauce"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoons",
+                    "ingredient": "matcha powder"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar of choice"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "scoops",
+                    "ingredient": "ice cream of choice"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Almond Milk",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 0.8,
+                    "unit": "cup",
+                    "ingredient": "unsweetened almond milk"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "(8oz) box",
+                    "ingredient": "almond paste"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Crunchy Peanut Butter",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "granulated sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "almond milk, regular milk or water"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "creamy peanut butter"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "crunchy peanut butter"
+                }
+            ],
+            "servings": 10
+        },
+        {
+            "name": "Blueberry Mochi Ice Cream",
+            "rating": 5.0,
+            "ingredients": [
+                {
+                    "amount": 12.0,
+                    "unit": "oz",
+                    "ingredient": "blueberries, pureed*"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "lemon juice"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar of choice"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "corn, potato or tapioca starch"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "scoops",
+                    "ingredient": "ice cream of choice"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Mugwort Mochi",
+            "rating": 4.8,
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar or sweetener of choice"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "mugwort powder*"
+                },
+                {
+                    "amount": 0.8,
+                    "unit": "cup",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "ingredient": "sweetened red bean paste (koshi an)"
+                },
+                {
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "ingredient": "roughly chopped walnuts"
+                }
+            ],
+            "servings": 8
+        },
+        {
+            "name": "Pandan Mochi",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "ml",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "pandan essence"
+                },
+                {
+                    "amount": 60.0,
+                    "unit": "grams",
+                    "ingredient": "butter"
+                },
+                {
+                    "amount": 225.0,
+                    "unit": "grams",
+                    "ingredient": "mochiko flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "tablespoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Black Sesame Mochi Muffins",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "ml/grams",
+                    "ingredient": "coconut milk"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla essence"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 4.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Mango Mochi",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "ml",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 50.0,
+                    "unit": "grams",
+                    "ingredient": "white sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 130.0,
+                    "unit": "grams",
+                    "ingredient": "of mango jam"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch to dust work surface"
+                }
+            ],
+            "servings": 14
+        },
+        {
+            "name": "Matcha Mochi Waffles",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.5,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "teaspoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "ml/grams",
+                    "ingredient": "milk of choice"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 8
+        },
+        {
+            "name": "Ube Baked Mochi Donuts",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch"
+                },
+                {
+                    "amount": 90.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "egg"
+                },
+                {
+                    "amount": 100.0,
+                    "unit": "ml/grams",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 120.0,
+                    "unit": "grams",
+                    "ingredient": "white chocolate"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "ube extract powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vegetable oil"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Potato Mochi",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 300.0,
+                    "unit": "grams",
+                    "ingredient": "potato"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Water to boil potatoes"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.75,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Oil for shallow frying"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Nori"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Chocolate Mochi",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 3.5,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.3333333333333333,
+                    "unit": "cup",
+                    "ingredient": "corn starch"
+                },
+                {
+                    "amount": 2.5,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "unsweetened cocoa powder"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "heavy whipping cream"
+                }
+            ],
+            "servings": 16
+        },
+        {
+            "name": "Ube Mochi Muffins",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "ml/grams",
+                    "ingredient": "coconut milk"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "ube extract"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 4.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Biscoff Baked Mochi Donuts",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch"
+                },
+                {
+                    "amount": 90.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "large egg"
+                },
+                {
+                    "amount": 95.0,
+                    "unit": "ml/grams",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 6.0,
+                    "unit": "whole",
+                    "ingredient": "Biscoff Biscuits"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Nutella Mochi",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "ml",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 50.0,
+                    "unit": "grams",
+                    "ingredient": "sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Pinch of salt"
+                },
+                {
+                    "amount": 130.0,
+                    "unit": "grams",
+                    "ingredient": "Nutella"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Corn starch",
+                    "ingredient": "to dust work surface"
+                }
+            ],
+            "servings": 20
+        },
+        {
+            "name": "Chocolate Mochi Cupcakes",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.3,
+                    "unit": "g",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 228.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "ml/grams",
+                    "ingredient": "milk of choice"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 0.3333333333333333,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.5,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "ml/grams",
+                    "ingredient": "milk of choice"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Matcha Mochi Muffins",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "ml/grams",
+                    "ingredient": "coconut milk"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 4.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Ube Butter Mochi",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "ml",
+                    "ingredient": "coconut milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "ube extract"
+                },
+                {
+                    "amount": 225.0,
+                    "unit": "grams",
+                    "ingredient": "mochiko flour"
+                },
+                {
+                    "amount": 60.0,
+                    "unit": "grams",
+                    "ingredient": "butter"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "tablespoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Mochi Waffle Recipe",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.5,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "granulated sugar"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "cup",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 8
+        },
+        {
+            "name": "Mochi Bread",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 210.0,
+                    "unit": "grams",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 0.75,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 325.0,
+                    "unit": "grams",
+                    "ingredient": "bread flour"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "teaspoons",
+                    "ingredient": "instant dry yeast"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 20.0,
+                    "unit": "grams",
+                    "ingredient": "butter"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "egg"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "tablespoon",
+                    "ingredient": "milk"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Chocolate Mochi Muffins",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 2.0,
+                    "unit": "cups",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "ml/grams",
+                    "ingredient": "coconut milk"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 4.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 12
+        },
+        {
+            "name": "Mochi Cookies",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "egg"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "grams",
+                    "ingredient": "all purpose flour"
+                },
+                {
+                    "amount": 20.0,
+                    "unit": "grams",
+                    "ingredient": "cocoa powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 50.0,
+                    "unit": "grams",
+                    "ingredient": "chocolate chips"
+                },
+                {
+                    "amount": 70.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 20.0,
+                    "unit": "grams",
+                    "ingredient": "cornflour"
+                },
+                {
+                    "amount": 140.0,
+                    "unit": "ml",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 15.0,
+                    "unit": "grams",
+                    "ingredient": "caster sugar"
+                },
+                {
+                    "amount": 15.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                }
+            ],
+            "servings": 22
+        },
+        {
+            "name": "Chocolate Mochi Donuts",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch"
+                },
+                {
+                    "amount": 90.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "large egg"
+                },
+                {
+                    "amount": 100.0,
+                    "unit": "ml/grams",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 120.0,
+                    "unit": "grams",
+                    "ingredient": "white chocolate"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vegetable oil"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "Crushed biscuits"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Ube Mochi",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 180.0,
+                    "unit": "ml",
+                    "ingredient": "water"
+                },
+                {
+                    "amount": 50.0,
+                    "unit": "grams",
+                    "ingredient": "sugar"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "ube extract"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch of",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 130.0,
+                    "unit": "grams",
+                    "ingredient": "sweet red bean paste*"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch"
+                }
+            ],
+            "servings": 20
+        },
+        {
+            "name": "Matcha Baked Mochi Donuts",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch"
+                },
+                {
+                    "amount": 90.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "large egg"
+                },
+                {
+                    "amount": 100.0,
+                    "unit": "ml/grams",
+                    "ingredient": "milk"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 120.0,
+                    "unit": "grams",
+                    "ingredient": "white chocolate"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "teaspoons",
+                    "ingredient": "matcha powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vegetable oil"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Mochi Pancakes",
+            "rating": "5",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "whole",
+                    "ingredient": "eggs"
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 1.5,
+                    "unit": "teaspoons",
+                    "ingredient": "vanilla extract"
+                }
+            ],
+            "servings": 14
+        },
+        {
+            "name": "Pandan Donuts",
+            "rating": "needs rating",
+            "ingredients": [
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "Corn starch flour to dust"
+                },
+                {
+                    "amount": 90.0,
+                    "unit": "grams",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "baking powder"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "Pinch",
+                    "ingredient": "of salt"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "unsalted butter"
+                },
+                {
+                    "amount": 30.0,
+                    "unit": "grams",
+                    "ingredient": "brown sugar"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "whole",
+                    "ingredient": "egg"
+                },
+                {
+                    "amount": 100.0,
+                    "unit": "ml/grams",
+                    "ingredient": "ml/grams  milk"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "pandan extract"
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "ingredient": "vanilla extract"
+                },
+                {
+                    "amount": 120.0,
+                    "unit": "grams",
+                    "ingredient": "white chocolate"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "teaspoon",
+                    "ingredient": "vegetable oil"
+                }
+            ],
+            "servings": 6
+        },
+        {
+            "name": "Milk Rice Cake",
+            "rating": "4.75",
+            "ingredients": [
+                {
+                    "amount": 2.5,
+                    "unit": "tablespoons",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 0.3333333333333333,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour"
+                },
+                {
+                    "amount": 3.0,
+                    "unit": "tablespoons",
+                    "ingredient": "sugar"
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "teaspoon",
+                    "ingredient": "salt"
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "milk"
+                }
+            ],
+            "servings": 16
+        }
+    ]
+}
