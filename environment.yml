@@ -1,0 +1,12 @@
+name: CompCreativity
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-learn
+  - seaborn
+  - numpy
+  - pandas
+  - unidecode
+  - bs4
+  - requests
