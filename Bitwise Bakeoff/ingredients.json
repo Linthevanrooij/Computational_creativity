@@ -1,0 +1,10 @@
+{
+    "extra_filling_ingredients_cooked": ["sweet potato", "broccoli"],
+    "extra_filling_ingredients_uncooked": ["strawberry", "mango", "tofu"],
+    "main_filling_ingredients": ["sweetened white bean paste", "sweetened red bean paste", "ice cream", "whipped cream", "vanilla pudding", "almond paste", "pumpkin puree"],
+    "dough_ingredients_cooked": ["sweet potato", "broccoli"],
+    "dough_ingredients_uncooked": ["strawberry", "mango", "banana", "tofu"],
+    "flour_ingredients": ["glutinous rice flour", "black sesame flour", "mochiko flour"],
+    "optional_ingredients": ["sugar", "water", "almond milk", "coconut milk", "salt", "vanilla extract", "cocoa powder"]
+  }
+  
