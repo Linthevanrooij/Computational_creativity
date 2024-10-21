@@ -13,7 +13,19 @@
                 {
                     "amount": 1.25,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.71
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.71
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.71
                 },
                 {
@@ -25,7 +37,19 @@
                 {
                     "amount": 0.31,
                     "unit": "cup",
-                    "ingredient": "cornstarch, potato starch or tapioca starch",
+                    "ingredient": "cornstarch",
+                    "rating": 4.71
+                },
+                {
+                    "amount": 0.31,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 4.71
+                },
+                {
+                    "amount": 0.31,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 4.71
                 },
                 {
@@ -43,7 +67,19 @@
                 {
                     "amount": 0.83,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -55,7 +91,19 @@
                 {
                     "amount": 1.11,
                     "unit": "cup",
-                    "ingredient": "pastry cream, vanilla pudding or ice cream of choice",
+                    "ingredient": "pastry cream",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.11,
+                    "unit": "cup",
+                    "ingredient": "vanilla pudding",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.11,
+                    "unit": "cup",
+                    "ingredient": "ice cream of choice",
                     "rating": 5.0
                 }
             ]
@@ -73,13 +121,37 @@
                 {
                     "amount": 1.67,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.37
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.37
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.37
                 },
                 {
                     "amount": 0.42,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 4.37
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 4.37
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 4.37
                 },
                 {
@@ -103,7 +175,19 @@
                 {
                     "amount": 1.67,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -115,7 +199,19 @@
                 {
                     "amount": 0.42,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 5.0
                 },
                 {
@@ -133,7 +229,19 @@
                 {
                     "amount": 0.83,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -169,7 +277,19 @@
                 {
                     "amount": 0.83,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 3.67
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 3.67
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 3.67
                 },
                 {
@@ -217,13 +337,37 @@
                 {
                     "amount": 2.0,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.56
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.56
+                },
+                {
+                    "amount": 2.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.56
                 },
                 {
                     "amount": 0.5,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 4.56
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 4.56
+                },
+                {
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 4.56
                 },
                 {
@@ -247,13 +391,37 @@
                 {
                     "amount": 1.0,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.8
                 },
                 {
                     "amount": 0.25,
                     "unit": "cup",
-                    "ingredient": "cornstarch, potato or tapioca starch",
+                    "ingredient": "cornstarch",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 4.8
                 },
                 {
@@ -295,7 +463,19 @@
                 {
                     "amount": 0.83,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4
                 },
                 {
@@ -319,7 +499,19 @@
                 {
                     "amount": 1.0,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -331,7 +523,19 @@
                 {
                     "amount": 1.0,
                     "unit": "cup",
-                    "ingredient": "almond milk, regular milk or water",
+                    "ingredient": "almond milk",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "regular milk",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "water",
                     "rating": 5.0
                 },
                 {
@@ -361,7 +565,19 @@
                 {
                     "amount": 1.25,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -379,7 +595,19 @@
                 {
                     "amount": 0.31,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.31,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.31,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 5.0
                 },
                 {
@@ -403,7 +631,19 @@
                 {
                     "amount": 0.83,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.86
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.86
+                },
+                {
+                    "amount": 0.83,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.86
                 },
                 {
@@ -415,7 +655,19 @@
                 {
                     "amount": 1.67,
                     "unit": "tablespoons",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 4.86
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "tablespoons",
+                    "ingredient": "potato starch",
+                    "rating": 4.86
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "tablespoons",
+                    "ingredient": "tapioca starch",
                     "rating": 4.86
                 },
                 {
@@ -445,7 +697,19 @@
                 {
                     "amount": 1.67,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -463,7 +727,19 @@
                 {
                     "amount": 0.42,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 5.0
                 },
                 {
@@ -481,7 +757,19 @@
                 {
                     "amount": 1.67,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -505,7 +793,19 @@
                 {
                     "amount": 1.0,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -517,7 +817,19 @@
                 {
                     "amount": 1.0,
                     "unit": "cup",
-                    "ingredient": "almond milk, regular milk or water",
+                    "ingredient": "almond milk",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "regular milk",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.0,
+                    "unit": "cup",
+                    "ingredient": "water",
                     "rating": 5.0
                 },
                 {
@@ -547,7 +859,19 @@
                 {
                     "amount": 1.67,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 1.67,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 5.0
                 },
                 {
@@ -565,7 +889,19 @@
                 {
                     "amount": 0.42,
                     "unit": "cup",
-                    "ingredient": "corn, potato or tapioca starch",
+                    "ingredient": "corn starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "potato starch",
+                    "rating": 5.0
+                },
+                {
+                    "amount": 0.42,
+                    "unit": "cup",
+                    "ingredient": "tapioca starch",
                     "rating": 5.0
                 },
                 {
@@ -583,7 +919,19 @@
                 {
                     "amount": 1.25,
                     "unit": "cup",
-                    "ingredient": "mochiko flour, sweet rice or glutinous rice flour",
+                    "ingredient": "mochiko flour",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "sweet rice flour",
+                    "rating": 4.8
+                },
+                {
+                    "amount": 1.25,
+                    "unit": "cup",
+                    "ingredient": "glutinous rice flour",
                     "rating": 4.8
                 },
                 {
