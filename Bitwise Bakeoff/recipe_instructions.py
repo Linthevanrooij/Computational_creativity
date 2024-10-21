@@ -4,8 +4,6 @@ import json
 # Load ingredient data from the JSON file
 with open('ingredients.json', 'r') as f:
     ingredients_data = json.load(f)
-
-# Now use the data from the JSON file instead of hardcoding the ingredients
 extra_filling_ingredients_cooked = ingredients_data['extra_filling_ingredients_cooked']
 extra_filling_ingredients_uncooked = ingredients_data['extra_filling_ingredients_uncooked']
 main_filling_ingredients = ingredients_data['main_filling_ingredients']
@@ -39,7 +37,7 @@ else:
     dough_step = f"4. Blend or mash the {dough_ingredient_uncooked} into a puree."
     chosen_dough_ingredient = dough_ingredient_uncooked
 
-# Randomly select either 5a or 5b for the final instruction
+# Randomly select final instructions
 final_step = random.choice([
     "13. Dust the finished mochi with more corn starch.",
     "13. Cover the finished mochi with melted chocolate and put it in the fridge to harden."
