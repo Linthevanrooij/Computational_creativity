@@ -1,8 +1,15 @@
 # Log file of Computational Creativity Bitwise Bakeoff
 
-## Initial Idea 
-Mochi!!! 
+## Initial Idea  
+Our initial idea for the Bitwise Bakeoff is to create a mochi recipe generator. Mochi is a traditional Japanese food made from glutinous rice, known as mochigome in Japanese. This soft, chewy dough forms a rice cake that can be wrapped around various fillings. There are many variations of mochi, as it can be filled with ingredients like red bean paste or ice cream. Mochi flavours can be both sweet and savoury. Because of this flavour variety, we thought mochi would be the perfect food to inspire a recipe generator.
 
+We plan to use these websites for our initial set of inspiring recipes:
+https://allpurposeveggies.com/12967/12-mochi-flavors-easy-recipes-for-mochi-ice-cream-and-more/
+https://thericechick.com/mochi-recipes/
+
+Additionally, to generate unique and unusual mochi flavours, we plan to create our own list of inspiring ingredients to combine with mochi. To calculate the fitness of each ingredient, from both the external recipe sources and our own list, we will use the ratings (1 to 5 stars) from the existing recipes. For each ingredient found in a recipe, we will assign it the recipe’s rating. If an ingredient appears multiple times, we will use the average rating. For ingredients from our own list, we will rate them ourselves and calculate the average score based on the three of us.
+
+For the presentation of our recipes, we like to maintain the Japanese style. Therefore, we plan to use a text generator that creates Japanese-like symbols from standard text, and use this for the instructions and ingredient list of the recicpe (https://lingojam.com/JapaneseText). Another idea is to present the recipes in a kawaii style. Kawaii is a part of Japanese culture that emphasizes cuteness. We can achieve this by creating AI-generated images of cute mochi designs that match the ingredients in the recipe.
 
 ## TO DO
 1. inspiring set recipe list

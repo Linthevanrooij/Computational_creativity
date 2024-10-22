@@ -1,85 +1,88 @@
-import random
-import json
+# List of ingredients that need to be cooked or mashed ??????????
+cooking_ingredients = ['potato', 'broccoli', 'eggplant']
+mashing_ingredients = ['mango', 'banana', 'lychee', 'strawberry']
 
-# Load ingredient data from the JSON file
-with open('ingredients.json', 'r') as f:
-    ingredients_data = json.load(f)
-extra_filling_ingredients_cooked = ingredients_data['extra_filling_ingredients_cooked']
-extra_filling_ingredients_uncooked = ingredients_data['extra_filling_ingredients_uncooked']
-main_filling_ingredients = ingredients_data['main_filling_ingredients']
-dough_ingredients_cooked = ingredients_data['dough_ingredients_cooked']
-dough_ingredients_uncooked = ingredients_data['dough_ingredients_uncooked']
-flour_ingredients = ingredients_data['flour_ingredients']
-optional_ingredients = ingredients_data['optional_ingredients']
+# Example generated ingredient list
+generated_ingredients = ['honey', 'banana', 'glutinous rice flour', 'sugar', 'eggplant']
 
-# Randomly choose ingredients
-extra_filling_ingredient_cooked = random.choice(extra_filling_ingredients_cooked)
-extra_filling_ingredient_uncooked = random.choice(extra_filling_ingredients_uncooked)
-main_filling_ingredient = random.choice(main_filling_ingredients)
-dough_ingredient_cooked = random.choice(dough_ingredients_cooked)
-dough_ingredient_uncooked = random.choice(dough_ingredients_uncooked)
-flour_ingredient = random.choice(flour_ingredients)
-optional_ingredient = random.choice(optional_ingredients)
+# Classify ingredients
+def classify_ingredients(ingredients):
+    flour_ingredient = None
+    non_flour_ingredients = []
 
-# Randomly select either cooked or uncooked filling ingredient
-if random.choice([True, False]):
-    filling_step = f"1. Cook the {extra_filling_ingredient_cooked} and blend or mash into a puree."
-    chosen_filling_ingredient = extra_filling_ingredient_cooked
-else:
-    filling_step = f"1. Blend or mash the {extra_filling_ingredient_uncooked} into a puree."
-    chosen_filling_ingredient = extra_filling_ingredient_uncooked
+    # Find ingredients that contain "flour"
+    for ingredient in ingredients:
+        if "flour" in ingredient.lower():
+            flour_ingredient = ingredient
+        else:
+            non_flour_ingredients.append(ingredient)
 
-# Randomly select either cooked or uncooked dough ingredient
-if random.choice([True, False]):
-    dough_step = f"4. Cook the {dough_ingredient_cooked} and blend or mash it into a puree."
-    chosen_dough_ingredient = dough_ingredient_cooked
-else:
-    dough_step = f"4. Blend or mash the {dough_ingredient_uncooked} into a puree."
-    chosen_dough_ingredient = dough_ingredient_uncooked
+    # Check if ingredients list contains flour
+    if not flour_ingredient:
+        raise ValueError("No flour ingredient found in the generated ingredients list!")
 
-# Randomly select final instructions
-final_step = random.choice([
-    "13. Dust the finished mochi with more corn starch.",
-    "13. Cover the finished mochi with melted chocolate and put it in the fridge to harden."
-])
+    # Classifiy other ingredients as ingredient1 to ingredient4
+    ingredient1, ingredient2, ingredient3, ingredient4 = non_flour_ingredients
+    
+    
+    return flour_ingredient, ingredient1, ingredient2, ingredient3, ingredient4
 
-# Ingredient list template
-ingredient_list = f"""
-Ingredients:
-- {chosen_filling_ingredient}
-- {main_filling_ingredient}
-- {chosen_dough_ingredient}
-- {flour_ingredient}
-- {optional_ingredient}
-"""
+flour_ingredient, ingredient1, ingredient2, ingredient3, ingredient4 = classify_ingredients(generated_ingredients)
 
-# Recipe template
-recipe_template = f"""
-{ingredient_list}
+# Check if ingredient1 to 4 are cooking or mashing ingredients
+def preparation_step(ingredient, cooking_list, mashing_list):
+    if ingredient in cooking_list:
+        return f"Cook the {ingredient} and blend or mash into a puree."
+    elif ingredient in mashing_list:
+        return f"Blend or mash the {ingredient} into a puree."
+    else:
+        return ""  # No extra step when ingredient does not need to be cooked or mashed
 
+# Check if preparation step needs to be added
+step1 = preparation_step(ingredient1, cooking_ingredients, mashing_ingredients)
+step2 = preparation_step(ingredient2, cooking_ingredients, mashing_ingredients)
+step3 = preparation_step(ingredient3, cooking_ingredients, mashing_ingredients)
+step4 = preparation_step(ingredient4, cooking_ingredients, mashing_ingredients)
+
+# Recept template
+recipe_template = """
 Prepare the mochi filling:
 
-{filling_step}
-2. In a small bowl, mix the {chosen_filling_ingredient} with {main_filling_ingredient}.
-3. Portion out (8?) scoops of filling, by using a tablespoon or a cookie scoop, and set aside.
+{step1}
+{step2}
+In a small bowl, mix the {ingredient1} with the {ingredient2}.
+Portion out 8 scoops of filling, using a tablespoon or a cookie scoop, and set aside.
 
 Prepare the mochi dough:
 
-{dough_step}
-5. In a microwave-safe bowl, mix the {chosen_dough_ingredient} puree with {flour_ingredient} and {optional_ingredient}.
-6. Microwave the combined dough in the microwave for 90 to 120 seconds.
-7. Use a solid metal spoon to stir the mochi mixture so that the cooked and uncooked parts are evenly mixed.
-8. Microwave the mochi dough mixture again, this time for 1 minute. You'll know when it is ready when the dough is slightly translucent and glossy.
+{step3}
+{step4}
+In a microwave-safe bowl, mix the {ingredient3} with the {ingredient4} and {flour_ingredient}.
+Microwave the combined dough for 90 to 120 seconds.
+Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
+Microwave again for 1 minute until the dough is slightly translucent and glossy.
 
 Making the mochi:
 
-9. Drop the hot mochi dough onto a surface floured with corn starch.
-10. Use a rolling pin or your hands to flatten it into a sheet.
-11. Cut the mochi dough into (8?) pieces using a dough cutter or scissors.
-12. Place a scoop of prepared filling on the dough and wrap the mochi dough around the filling.
-{final_step}
-14. Enjoy!
+Drop the hot mochi dough onto a surface floured with corn starch.
+Use a rolling pin or your hands to flatten it into a sheet.
+Cut the dough into 8 pieces using a dough cutter or scissors.
+Place a scoop of prepared filling on each piece and wrap the mochi dough around the filling.
+Enjoy!
 """
 
-# Print the generated recipe
-print(recipe_template)
+# Fill in template
+recipe_filled = recipe_template.format(
+    step1=step1,
+    step2=step2,
+    step3=step3,
+    step4=step4,
+    ingredient1=ingredient1,
+    ingredient2=ingredient2,
+    ingredient3=ingredient3,
+    ingredient4=ingredient4,
+    flour_ingredient=flour_ingredient
+)
+
+# Print generated recipe
+print(recipe_filled)
