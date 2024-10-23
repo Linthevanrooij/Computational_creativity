@@ -16,17 +16,32 @@ For the presentation of our recipes, we like to maintain the Japanese style. The
     - Ieder van ons voegt gekke ingredienten toe en rate deze
     - Rate ook de onreviewde recepten
     - Alles omzetten naar grammen (de hele ingredientenlijst via chatgpt omzetten)
+    - lijst maken van alle noten die bestaan, als het een noot is class "nuts" toevoegen (hazelnoot, pistache, cashew, pecan, )
+    - gluten
 
 
-2. de fitness criterium/evaluation
-    - 0.9 * n_consonants + 0.1 * rating
+2. de fitness criterium/evaluation (Linthe)
+    - (0.9 * n_consonants + 0.1 * rating)
+        * presence_flour (dat is 1 of 0)
+        * presence_egg
+        * presence_nuts
+        * presence_bakingpowder
+        * gluten ()
+
+        (last four are binary)
+
         - dus hvh consonants berekenen per ingredient
+            - is het gemiddeld hvh medeklinkers (tot / n_ingredients)
         - rating per ingredient
         - summen van alle consonants en mean rating van alle ingredienten
         - doesn't take ingredients containing gluten + nuts
+        - important that it includes flour
+            - 1 if flour = 1 and 0 if flour <1 OR flour > 1
+        - recipes for 10 servings of mochi
+
+        wat is belangrijk voor mochi: dat het goede verhouding water/flour heeft en een filling.
 
     - er moeten basis ingredienten in zitten (bv de flour) voor het deeg
-    - dough heeft 
     - alles wat niet-deeg is automatisch filling of topping.
 
     - crossover functie kiezen (zelfde als voorbeeld)
@@ -44,6 +59,14 @@ For the presentation of our recipes, we like to maintain the Japanese style. The
 4. using genAI for presentation (Sanne / allen)
 https://lingojam.com/JapaneseText
 Alles kawaii en cutie
+
+- eigenlijk al het kookboek maken met placeholders (Emma)
+
+5. logboek schrijven (Emma)
+
+6. nadenken over evaluatie van onze creativiteit systeem ()
+- weer met iemand laten uitproberen?
+- lovelace 2.0 test
 
 
 
@@ -67,6 +90,11 @@ We argued that we needed to find a criterium that has nothing to do with the qua
 Now: 0.1 * rating + 0.9 * n_consonants
 
 Er zit wat subjectiviteit in van onze rating.
+
+amounts:
+- pinch of
+- whole as a unit (a whole egg)
+- dust the surface
 
 
 ## Reflect on experience of generative AI
