@@ -68,13 +68,17 @@ Alles kawaii en cutie
 - weer met iemand laten uitproberen?
 - lovelace 2.0 test
 
-
+Your logbook should note which parts of the cookbook were generated using a Generative AI.
 
 ## Updates on idea/new goals
 
 
 ## Step-by-step account on how to tackled tasks (inspiring set, implement recipe generator, presentation) + reflection on development
 
+Presentation:
+https://www.canva.com/design/DAGUYibnRzg/cqlxfxbQ7bQ5u21EhB991g/edit?utm_content=DAGUYibnRzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+We hand-designed the cookbook and used placeholders for the ingredients, instructions and images of the generated recipe.
 
 ### Limitations
 
