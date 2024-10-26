@@ -379,7 +379,7 @@
                 {
                     "amount": 144.0,
                     "unit": "g",
-                    "ingredient": "granulated sugar of choice**",
+                    "ingredient": "granulated sugar of choice",
                     "rating": 4.56,
                     "category": "Sugar"
                 },
@@ -979,7 +979,7 @@
                 {
                     "amount": 566.99,
                     "unit": "g",
-                    "ingredient": "blueberries, pureed*",
+                    "ingredient": "blueberries, pureed",
                     "rating": 5.0,
                     "category": "Bindings"
                 },
@@ -1006,10 +1006,10 @@
                 },
                 {
                     "amount": 16.67,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "lemon juice",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 60.0,
@@ -1083,7 +1083,7 @@
                 {
                     "amount": 15.0,
                     "unit": "g",
-                    "ingredient": "mugwort powder*",
+                    "ingredient": "mugwort powder",
                     "rating": 4.8,
                     "category": "Powder"
                 },
@@ -1137,17 +1137,17 @@
                 },
                 {
                     "amount": 2.08,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "pandan essence",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 50.0,
@@ -1241,10 +1241,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla essence",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 80.0,
@@ -1358,10 +1358,10 @@
                 },
                 {
                     "amount": 6.25,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -1420,10 +1420,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.5,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 200.0,
@@ -1434,17 +1434,17 @@
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "ube extract powder",
                     "rating": 3.5,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vegetable oil",
                     "rating": 3.5,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -1599,10 +1599,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "ube extract",
                     "rating": 3.5,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 80.0,
@@ -1682,10 +1682,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 135.0,
@@ -1834,10 +1834,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 4.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -1917,10 +1917,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -1951,17 +1951,17 @@
                 },
                 {
                     "amount": 2.08,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.8,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "ube extract",
                     "rating": 3.8,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 187.5,
@@ -2048,10 +2048,10 @@
                 },
                 {
                     "amount": 6.25,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 4.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -2200,10 +2200,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 4.7,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -2352,10 +2352,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 4.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 200.0,
@@ -2366,10 +2366,10 @@
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vegetable oil",
                     "rating": 4.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 30.0,
@@ -2407,10 +2407,10 @@
                 },
                 {
                     "amount": 0.62,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "ube extract",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 0.19,
@@ -2422,7 +2422,7 @@
                 {
                     "amount": 65.0,
                     "unit": "g",
-                    "ingredient": "sweet red bean paste*",
+                    "ingredient": "sweet red bean paste",
                     "rating": 5.0,
                     "category": "Pastes"
                 }
@@ -2483,10 +2483,10 @@
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 200.0,
@@ -2504,10 +2504,10 @@
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vegetable oil",
                     "rating": 3.3,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -2573,10 +2573,10 @@
                 },
                 {
                     "amount": 5.36,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 5.0,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
@@ -2635,17 +2635,17 @@
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "pandan extract",
                     "rating": 3.8,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 4.17,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vanilla extract",
                     "rating": 3.8,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 },
                 {
                     "amount": 200.0,
@@ -2656,10 +2656,10 @@
                 },
                 {
                     "amount": 8.33,
-                    "unit": "ml",
+                    "unit": "g",
                     "ingredient": "vegetable oil",
                     "rating": 3.8,
-                    "category": "Liquids"
+                    "category": "Other_liquids"
                 }
             ]
         },
