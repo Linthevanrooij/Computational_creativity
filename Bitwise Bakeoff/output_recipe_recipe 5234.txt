@@ -1,21 +1,20 @@
-recipe 9776
-Rating: 4.84
+recipe 5234
+Rating: 4.77
 
 Ingredients
 
-- 179 g glutinous rice flour
-- 1 g fresh ginger
-- 11 g mocha/coffee
-- 50 g sugar of choice
-- 105 ml regular milk
-- 106 ml water
-- 45 g cinnamon
+- 101 g glutinous rice flour
+- 203 ml water
+- 53 g sugar
+- 1 g ube extract
 - 1 g salt
+- 61 g poppy seeds
+- 77 g chocolate chips
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-If the fresh ginger requires cooking, soften it first, then blend or mash into a puree
+If the chocolate chips requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 

@@ -1,25 +1,24 @@
-recipe 3128
-Rating: 4.73
+recipe 2878
+Rating: 4.77
 
 Ingredients
 
-- 148 g glutinous rice flour
-- 21 g caster sugar
-- 5 g miso
-- 65 g ice cream of choice
+- 114 g glutinous rice flour
+- 35 ml coconut milk
+- 12 ml teriyaki
 - 1 g fresh ginger
-- 139 g mashed purple sweet potato
-- 118 g water
+- 330 ml unsweetened almond milk
+- 2 g pandan essence
+- 4 g unsalted butter
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-If the fresh ginger requires cooking, soften it first, then blend or mash into a puree
-If the mashed purple sweet potato requires cooking, soften it first, then blend or mash into a puree
+If the fresh ginger requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the glutinous rice flour with the unsweetened almond milk and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.

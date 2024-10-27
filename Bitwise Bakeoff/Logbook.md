@@ -74,7 +74,7 @@ Therefore, we made some adjustments to our fitness function:
 - The presence of max 1 butter
 - The presence of min 1 liquid OR puree, with a min of 1 and a max of 2 liquids.
 
-```r['fitness'] = max(0, scaled_rating - length_penalty - ingredient_constraint)*forbid*dough_presence```
+```r['fitness'] = (rating - (length * penalty_factor)) * flour_presence * forbid``` [aanpassen]
 
 ### Mutations
 _16.10.2024_
