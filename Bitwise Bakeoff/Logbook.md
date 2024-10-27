@@ -32,8 +32,7 @@ Additionally, due to allergies, we created a class of ingredients that contains 
 ## Implementation recipe generator
 _21.10.2024_
 
-
-_Whichever way you go with the implementation, think about the stopping criteria for your genetic algorithm and what you want your system to output at the end of a run, e.g., should your system run for a fixed number of generations and return the best recipe found so far, or should its run be controlled interactively by a user._
+We chose to write an algorithm that runs by itself without intervention from a user. The stopping criteria is 500 fixed generations, including steps for crossover, mutation, normalisation and evaluation.
 
 ### The fitness criteria
 _16.10.2024_
