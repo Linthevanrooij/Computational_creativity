@@ -10,9 +10,8 @@ We plan to use [this](https://allpurposeveggies.com/12967/12-mochi-flavors-easy-
 Additionally, to generate unique and unusual mochi flavours, we planned to create our own list of ingredients to combine with mochi. To calculate the fitness of each ingredient, from both the external recipe sources and our own list, we used the ratings (1 to 5 stars) from the existing recipes. For each ingredient found in a recipe, we assigned it the recipe’s rating. If an ingredient appeared multiple times among all recipes, we will use the average rating. For ingredients from our own list, we rated them ourselves and calculated the average score based on our ratings.
 
 Since mochi is originally from Japan, for the presentation of our recipes we liked to maintain the Japanese style. Therefore, we planned to use a [text generator](https://lingojam.com/JapaneseText) that creates text from Japanese symbols, like 爪ㄖ匚卄丨, and used this font for the titles of the recipes. Another idea is to present the recipes in a kawaii style. Kawaii is a part of Japanese culture that emphasizes cuteness. We can achieve this by creating AI-generated images of cartoonish cute mochi designs that match the ingredients in the recipe and using soft pastel colours associated with a kawaii drawing style for the cookbook. We wanted to create a tiny pocket cookbook as that would make it instantly cute and it would fit well within our Japanese mochi theme. Moreover, we wanted to use generative AI to create fitting titles for the mochi recipes. We hand-designed the cookbook and used placeholders for the ingredients, instructions and images of the generated recipe.
-We aim at increasing the perceived value of the recipes by staying within this Japanese-themed presentation for the Mochi cookbook.
 
-https://www.canva.com/design/DAGUYibnRzg/cqlxfxbQ7bQ5u21EhB991g/edit?utm_content=DAGUYibnRzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+We aim at increasing the perceived value of the recipes by staying within this Japanese-themed presentation for the Mochi cookbook.
 
 
 ### Updates on idea/new goals
@@ -22,10 +21,12 @@ At some point we realised that by adding our list of random ingredients, we woul
 
 ## Inspiring set & creation of knowledge base
 _16.10.2024_
+
 We gathered recipes for our inspiring set using two different websites with both around 20 different mochi recipes as our inspiring set. We webscraped the recipes and created our own database with it.
 We decided that besides existing recipes, we wanted to add some loose ingredients and named this our "weird ingredient list", as we were interested in adding ingredients that you would normally not associate with mochi. For this list, each of us added some unexpected ingredients and rated them on a 1 to 5 scale for the fitness function. Some of the recipes from the two websites we used in our inspiring set also did not have a rating, therefore, we gave them our own rating as well. 
 
 _21.10.2024_
+
 Additionally, due to allergies, we created a class of ingredients that contains nuts, peanuts, and gluten. To normalise every recipe we standardised every recipe to a serving of 10 mochis and converted every unit to grams.
 
 ## Implementation recipe generator
@@ -74,7 +75,7 @@ Therefore, we made some adjustments to our fitness function:
 - The presence of max 1 butter
 - The presence of min 1 liquid OR puree, with a min of 1 and a max of 2 liquids.
 
-```r['fitness'] = (rating - (length * penalty_factor)) * flour_presence * forbid``` [aanpassen]
+```r['fitness'] = max(0, scaled_rating - length_penalty - ingredient_constraint)*forbid*dough_presence```
 
 ### Mutations
 _16.10.2024_
