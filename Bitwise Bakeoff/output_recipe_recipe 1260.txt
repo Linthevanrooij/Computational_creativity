@@ -1,20 +1,22 @@
-recipe 5805
-Rating: 4.82
+recipe 1260
+Rating: 4.75
 
 Ingredients
 
-- 120 g glutinous rice flour
-- 187 ml water
-- 46 g poppy seeds
-- 85 g sugar
+- 78 g glutinous rice flour
+- 146 ml water
+- 29 g pickle
+- 80 g sugar
+- 1 g ube extract
+- 23 g matcha powder
+- 139 g mashed bananas
 - 1 g salt
-- 21 g sweet red bean paste
-- 38 g granulated sugar of choice
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-
+If the pickle requires cooking, cook it first, then blend or mash into a puree
+If the mashed bananas requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 
