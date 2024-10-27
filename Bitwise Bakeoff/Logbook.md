@@ -32,7 +32,7 @@ Additionally, due to allergies, we created a class of ingredients that contains 
 ## Implementation recipe generator
 _21.10.2024_
 
-We chose to write an algorithm that runs by itself without intervention from a user. The stopping criteria is 500 fixed generations, including steps for crossover, mutation, normalisation and evaluation.
+We chose to write an algorithm that runs by itself without intervention from a user. The stopping criteria is 500 fixed generations, including steps for crossover, mutation, normalisation and evaluation. It returns the best recipe.
 
 ### The fitness criteria
 _16.10.2024_
