@@ -1,24 +1,23 @@
-recipe 5234
-Rating: 4.77
+recipe 9246
+Rating: 4.7
 
 Ingredients
 
-- 101 g glutinous rice flour
-- 203 ml water
-- 53 g sugar
-- 1 g ube extract
-- 1 g salt
-- 61 g poppy seeds
-- 77 g chocolate chips
+- 35 g glutinous rice flour
+- 75 ml water
+- 19 g sugar
+- 26 g cooked red beet
+- 77 g vanilla pudding
+- 266 g blueberries, pureed
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-If the chocolate chips requires cooking, cook it first, then blend or mash into a puree
+If the cooked red beet requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the glutinous rice flour with the blueberries, pureed and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.

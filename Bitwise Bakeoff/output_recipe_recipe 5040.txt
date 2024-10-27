@@ -1,26 +1,23 @@
-recipe 1260
-Rating: 4.75
+recipe 5040
+Rating: 4.82
 
 Ingredients
 
-- 78 g glutinous rice flour
-- 146 ml water
-- 29 g pickle
-- 80 g sugar
-- 1 g ube extract
-- 23 g matcha powder
-- 139 g mashed bananas
-- 1 g salt
+- 21 g pumpkin puree
+- 31 g tapioca starch
+- 122 ml regular milk
+- 217 g raspberry
+- 98 g sweetened white bean paste
+- 7 g cinnamon
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-If the pickle requires cooking, cook it first, then blend or mash into a puree
-If the mashed bananas requires cooking, cook it first, then blend or mash into a puree
+If the raspberry requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the tapioca starch with the regular milk and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.
