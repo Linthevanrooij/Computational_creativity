@@ -1,15 +1,14 @@
-recipe 7977
-Rating: 4.85
+recipe 5627
+Rating: 4.76
 
 Ingredients
 
-- 65 g glutinous rice flour
-- 29 g mocha/coffee
-- 12 g cinnamon
-- 198 ml regular milk
-- 93 g pastry cream
-- 52 g brown sugar
-- 47 g butter
+- corn starch to dust surface 
+- 109 g glutinous rice flour
+- 277 ml water
+- 91 g sugar
+- 1 g salt
+- 20 ml teriyaki
 
 Instructions
 
@@ -18,7 +17,7 @@ Instructions
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the regular milk and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.
@@ -26,7 +25,7 @@ Microwave again for 1 minute until the dough is slightly translucent and glossy.
 3. Prepare the mochi filling:
 
 In a small bowl, mix the remaining ingredients.
-Portion out 8 scoops of filling, using a tablespoon or a cookie scoop, and set aside.
+Portion out 8 scoops of filling, using a tablespoon or a cookie scoop, and set aside. If the filling is containing ice cream, set aside in the fridge. 
 
 Making the mochi:
 

@@ -7,7 +7,7 @@ Our initial idea for the Bitwise Bakeoff was to create a mochi recipe generator.
 
 We plan to use [this](https://allpurposeveggies.com/12967/12-mochi-flavors-easy-recipes-for-mochi-ice-cream-and-more/) and [this website](https://thericechick.com/mochi-recipes/) for our initial set of inspiring recipes. 
 
-Additionally, to generate unique and unusual mochi flavours, we planned to create our own list of ingredients to combine with mochi. To calculate the fitness of each ingredient, from both the external recipe sources and our own list, we used the ratings (1 to 5 stars) from the existing recipes. For each ingredient found in a recipe, we assigned it the recipe’s rating. If an ingredient appeared multiple times among all recipes, we will use the average rating. For ingredients from our own list, we rated them ourselves and calculated the average score based on our ratings.
+Additionally, to generate unique and unusual mochi flavours, we planned to create our own list of ingredients to combine with mochi. To calculate the fitness of each ingredient, from both the external recipe sources and our own list, we used the ratings (1 to 5 stars) from the existing recipes. For each ingredient found in a recipe, we assigned it the recipe’s rating. For ingredients from our own list, we rated them ourselves and calculated the average score based on our ratings.
 
 Since mochi is originally from Japan, for the presentation of our recipes we liked to maintain the Japanese style. Therefore, we planned to use a [text generator](https://lingojam.com/JapaneseText) that creates text from Japanese symbols, like 爪ㄖ匚卄丨, and used this font for the titles of the recipes. Another idea is to present the recipes in a kawaii style. Kawaii is a part of Japanese culture that emphasizes cuteness. We can achieve this by creating AI-generated images of cartoonish cute mochi designs that match the ingredients in the recipe and using soft pastel colours associated with a kawaii drawing style for the cookbook. We wanted to create a tiny pocket cookbook as that would make it instantly cute and it would fit well within our Japanese mochi theme. Moreover, we wanted to use generative AI to create fitting titles for the mochi recipes. We hand-designed the cookbook and used placeholders for the ingredients, instructions and images of the generated recipe.
 
@@ -25,14 +25,29 @@ _16.10.2024_
 We gathered recipes for our inspiring set using two different websites with both around 20 different mochi recipes as our inspiring set. We webscraped the recipes and created our own database with it.
 We decided that besides existing recipes, we wanted to add some loose ingredients and named this our "weird ingredient list", as we were interested in adding ingredients that you would normally not associate with mochi. For this list, each of us added some unexpected ingredients and rated them on a 1 to 5 scale for the fitness function. Some of the recipes from the two websites we used in our inspiring set also did not have a rating, therefore, we gave them our own rating as well. 
 
+_17.10.2024_
+
+With webscraping in general, we encountered lots of exceptions. So we had to hard code these exceptions. For example. The placement of amount was sometimes in the incorrect html label. The amount of 3/4 cups was not really amount, but rather string based. Or there were references in the ingredients to other recipes instead of single ingredients. So we had to come up with workarounds to overcome these exceptions. 
+
+
 _21.10.2024_
 
-Additionally, due to allergies, we created a class of ingredients that contains nuts, peanuts, and gluten. To normalise every recipe we standardised every recipe to a serving of 10 mochis and converted every unit to grams.
+Additionally, due to allergies, we created a class of ingredients that contains nuts, peanuts, and gluten. To normalise every recipe we standardised every recipe to a serving of 10 mochis and converted every unit to grams. Also with this, there were some exceptions to the available units. For example, sometimes "slices" were used to describe the amount of banana, or "pkg" to describe a package of beans. With available online information, we hard coded this into available units to convert them, such as "oz". 
+
 
 ## Implementation recipe generator
 _21.10.2024_
 
 We chose to write an algorithm that runs by itself without intervention from a user. The stopping criteria is 500 fixed generations, including steps for crossover, mutation, normalisation and evaluation. It returns the best recipe.
+
+_26.10.2024_
+
+For the final implementation, we mainly based our algorithm on the algorithm used by the PIERRE assignment. We made some adjustments to the algorithm to make it a better fit for our fitness function. Adjustments were as follows:
+- fitness function alterations
+- mutation with our "weird ingredient list"
+- normalization: instead of sum, average amount and added average rating with duplicates and different scale (500 instead of 1000)
+
+Below, we will futher explain each of the adjustments. 
 
 ### The fitness criteria
 _16.10.2024_
@@ -68,28 +83,45 @@ We realised that 7 is maybe a bit of a random number, so we argued that it is ni
 
 Therefore, we made some adjustments to our fitness function:
 - The rating of the recipe
-- The presence of 1 flour (binary),
-- The presence of eggs or baking powder (binary).
-- The presence of ingredients that are categorised as allergens (|binary).
-- The presence of max 1 butter
-- The presence of min 1 liquid OR puree, with a min of 1 and a max of 2 liquids.
+- The presence of min 1 liquid OR puree AND 1 flour (binary)
+- The presence of eggs or baking powder (binary)
+- The presence of ingredients that are categorised as allergens (binary)
+- The presence of max 1 butter and min 1/max 2 liquids (penalty)
+- The presence of minimum of 5 ingredients and max 8 ingredients (penalty)
+
+```r['fitness'] = max(0, rating - length_penalty - ingredient_constraint)*forbid*dough_presence```
+
+_27.10.2024_
+
+We encountered that the pool of ingredients was limited due to including only the highest rating as fitness. We decided to enlarge the pool of ingredients by making the rating scaled from 4.7 - 5 as accepted rating. When the rating falls between this range, a random rating will be chosen between 4.7 and 5 to give all ratings between this an equal change. 
+
+Our final fitness function:
+- The scaled rating of the recipe
+- The presence of min 1 liquid OR puree AND 1 flour (binary)
+- The presence of eggs or baking powder (binary)
+- The presence of ingredients that are categorised as allergens (binary)
+- The presence of max 1 butter and min 1/max 2 liquids (penalty)
+- The presence of minimum of 5 ingredients and max 8 ingredients (penalty)
 
 ```r['fitness'] = max(0, scaled_rating - length_penalty - ingredient_constraint)*forbid*dough_presence```
+
 
 ### Mutations
 _16.10.2024_
 
-As possible mutations we used addition, substitution and deletion of ingredients.
+As possible mutations we used addition, substitution (with our weird ingredient list) and deletion, and changing the amount of ingredients. 
 
 ### Normalisation
 _25.10.2024_
 
 We had not thought of how we wanted to normalise our recipes. The only possible solution was to try out some existing mochi and base our answer on that. As a result, we decided that we wanted each of our mochi to weigh around 50 grams (as our try-out mochi weighed 35 grams and were a bit scanty to our taste). As we generate recipes for 10 servings we decided that we would normalise it to 500 grams of total ingredient weight.
 
+Additionally, with removing duplicates, we added two rules. The first rule is averaging the amounts instead of summing up the amounts. This is mainly done because we splitted duplicates in the original dataset as well. Flour1, flour2, or flour3 as one ingredient was changed to one ingredient for each. However, we did not divide the amount by the amount of ingredients, but decided to keep the amount for these seperate ingredients the same. When there were duplicates in a newly created recipe, we therefore averaged the amount instead of summing up, to avoid too big numbers of amounts. The second rule is averaging the rating of the ingredients, to get a more fair rating for the total recipe based on duplicates. 
+
 ## Limitations
 Some recipes from the inspiring set did not have a rating. We solved this by adding our own rating, based on our own liking of the ingredients. We then took the average of our ratings for the recipes. 
 Another problem with the recipes from the inspring set was the ingredients were measured in different units (e.g., cups, ounces, and grams). To achieve a recipe that takes into account a correct ratio of the ingredients, we converted all the units to grams and ml by using the library Sugarcube. This library already contained the density of the products water, sugar, flour, butter, and salt, therefore these ingredients were automatically converted. For the density of other ingredients, we categorised them in classes, such as liquid for milks and sauces, and gave them a general density based on information online. After catergorising all the ingredients, we added their densities to the library, whereafter the units were converted.
-On top of that, there were some measuring units that were difficult to convert or normalise, such as "a pinch" or "a whole/large (egg)". Moreover, sometimes an ingredient was a flour "to dust the surface". We chose to exclude those ingredients.
+On top of that, there were some measuring units that were difficult to convert or normalise, such as "a whole/large (egg)". Moreover, sometimes an ingredient was a flour "to dust the surface". We chose to exclude those ingredients.
 
 
 ## Reflection on the question of how to evaluate the creativity of your system 

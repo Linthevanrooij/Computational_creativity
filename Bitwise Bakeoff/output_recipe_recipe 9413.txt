@@ -1,16 +1,17 @@
-recipe 4651
-Rating: 4.85
+recipe 9413
+Rating: 4.81
 
 Ingredients
 
-- 160 g glutinous rice flour
-- 5 g cinnamon
-- 46 ml regular milk
-- 31 ml milk
-- 2 ml honey
-- 93 g ripened mango
-- 19 g brown sugar
-- 140 g heavy whipping cream
+- corn starch to dust surface 
+- 125 g glutinous rice flour
+- 127 ml water
+- 31 g brown sugar
+- 20 g butter
+- 76 g ripened mango
+- 1 g salt
+- 27 g mocha/coffee
+- 90 g sweet red bean paste
 
 Instructions
 
@@ -19,7 +20,7 @@ If the ripened mango requires cooking, cook it first, then blend or mash into a 
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the milk and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.
@@ -27,7 +28,7 @@ Microwave again for 1 minute until the dough is slightly translucent and glossy.
 3. Prepare the mochi filling:
 
 In a small bowl, mix the remaining ingredients.
-Portion out 8 scoops of filling, using a tablespoon or a cookie scoop, and set aside.
+Portion out 8 scoops of filling, using a tablespoon or a cookie scoop, and set aside. If the filling is containing ice cream, set aside in the fridge. 
 
 Making the mochi:
 
