@@ -1,16 +1,15 @@
-recipe 5823
-Rating: 4.77
+recipe 2038
+Rating: 4.87
 
 Ingredients
 
 - corn starch to dust surface 
-- 25 g sugar or sweetener of choice
-- 152 g glutinous rice flour
-- 18 ml sweetened condensed milk of choice
-- 161 ml almond milk
-- 1 g vanilla extract
-- 17 g pastry cream
-- 123 g ice cream of choice
+- 135 g glutinous rice flour
+- 246 ml water
+- 79 g sugar
+- 1 g ube extract
+- 1 g salt
+- 35 g miso
 
 Instructions
 
@@ -19,7 +18,7 @@ Instructions
 
 2. Prepare the mochi dough:
 
-In a microwave-safe bowl, mix the glutinous rice flour with the almond milk and ingredients of your choice from the ingredients list.
+In a microwave-safe bowl, mix the glutinous rice flour with the water and ingredients of your choice from the ingredients list.
 Microwave the combined dough for 90 to 120 seconds.
 Stir the mochi mixture so the cooked and uncooked parts are evenly mixed.
 Microwave again for 1 minute until the dough is slightly translucent and glossy.

@@ -1,22 +1,21 @@
-recipe 9413
-Rating: 4.81
+recipe 3989
+Rating: 4.89
 
 Ingredients
 
 - corn starch to dust surface 
-- 125 g glutinous rice flour
-- 127 ml water
-- 31 g brown sugar
-- 20 g butter
-- 76 g ripened mango
+- 94 g glutinous rice flour
+- 178 ml water
+- 45 g sugar
 - 1 g salt
-- 27 g mocha/coffee
-- 90 g sweet red bean paste
+- 8 g cocoa powder
+- 4 g pancake syrup
+- 167 g vanilla pudding
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-If the ripened mango requires cooking, cook it first, then blend or mash into a puree
+
 
 2. Prepare the mochi dough:
 

@@ -1,19 +1,22 @@
-recipe 5627
-Rating: 4.76
+recipe 6561
+Rating: 4.86
 
 Ingredients
 
 - corn starch to dust surface 
-- 109 g glutinous rice flour
-- 277 ml water
-- 91 g sugar
+- 122 g pineapple
+- 80 g glutinous rice flour
+- 145 ml water
 - 1 g salt
-- 20 ml teriyaki
+- 65 g sugar
+- 20 g mocha/coffee
+- 26 g unsweetened cocoa powder
+- 38 g brown sugar
 
 Instructions
 
 1. Prepare the ingredients (if necessary):
-
+If the pineapple requires cooking, cook it first, then blend or mash into a puree
 
 2. Prepare the mochi dough:
 
