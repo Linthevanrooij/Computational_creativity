@@ -64,7 +64,7 @@ Also, it produced recipes with only that ingredient, as adding others would brin
 
 Moreover, after going through many recipes, we learned that the base ingredient of a mochi is not only flour, but flour in combination with either a liquid or a puree in combination with a liquid. Also, that butter is not used in the dough, only possibly in the filling. 
 
-We realised that 7 is maybe a bit of a random number, so we argued that it is nice to make it a range. The minimum amount of ingredients necessary to make mochi is 3 (a flour, a liquid, and a filling). This little ingredients would not spark exciting recipes. With too many ingredients, the individual ingredients might lose their flavour. Thus, we settled on a maximum of 8 ingredients. We chose a range of 4 to 8 ingredients. With a length smaller than 3 ingredients, it would not be a mochi, and therefore it would be excluded, and above 8 we included a penalty. 
+We realised that 7 is maybe a bit of a random number, so we argued that it is nice to make it a range. The minimum amount of ingredients necessary to make mochi is 3 (a flour, a liquid, and a filling). This little ingredients would not spark exciting recipes. We thus chose to set the minimum of ingredients to 5, since we are building a creative system. With too many ingredients, the individual ingredients might lose their flavour. Thus, we settled on a maximum of 8 ingredients. We chose a range of 4 to 8 ingredients. With a length smaller than 3 ingredients, it would not be a mochi, and therefore it would be excluded, and above 8 we included a penalty. 
 
 Therefore, we made some adjustments to our fitness function:
 - The rating of the recipe
@@ -74,7 +74,7 @@ Therefore, we made some adjustments to our fitness function:
 - The presence of max 1 butter
 - The presence of min 1 liquid OR puree, with a min of 1 and a max of 2 liquids.
 
-```r['fitness'] = (rating - (length * penalty_factor)) * flour_presence * forbid``` [aanpassen]
+```r['fitness'] = max(0, scaled_rating - length_penalty - ingredient_constraint)*forbid*dough_presence```
 
 ### Mutations
 _16.10.2024_
@@ -87,20 +87,14 @@ _25.10.2024_
 We had not thought of how we wanted to normalise our recipes. The only possible solution was to try out some existing mochi and base our answer on that. As a result, we decided that we wanted each of our mochi to weigh around 50 grams (as our try-out mochi weighed 35 grams and were a bit scanty to our taste). As we generate recipes for 10 servings we decided that we would normalise it to 500 grams of total ingredient weight.
 
 ## Limitations
-During the implementation of the fitness function, were not sure if using simply the rating would result in new recipes, since an evolution algorithm would then just give recipes with the highest rated ingredients, and the non-rated and lower rated ingredients would not stand a chance. Therefore, we started looking into other fitness criteria. We thought about the ingredient being vegan/vegetarian/gluten-free or cooking time. We argued that we needed to find a criterium that has nothing to do with the quality of the ingredient itself (such as length of ingredients in the example code). But since a rating of a recipe (and thus an ingredient) does possibly say something about the goodness of the taste, we did want to include it to some extent. Therefore, we decided to make a combination of something random (and independent of the ingredient) and the rating. For the random criterium, we opted for the number of consonants in an ingredient. This comes down to a fitness function of 0.1 * rating + 0.9 * n_consonants (exl. the binary criteria).
+Some recipes from the inspiring set did not have a rating. We solved this by adding our own rating, based on our own liking of the ingredients. We then took the average of our ratings for the recipes. 
+Another problem with the recipes from the inspring set was the ingredients were measured in different units (e.g., cups, ounces, and grams). To achieve a recipe that takes into account a correct ratio of the ingredients, we converted all the units to grams and ml by using the library Sugarcube. This library already contained the density of the products water, sugar, flour, butter, and salt, therefore these ingredients were automatically converted. For the density of other ingredients, we categorised them in classes, such as liquid for milks and sauces, and gave them a general density based on information online. After catergorising all the ingredients, we added their densities to the library, whereafter the units were converted.
+On top of that, there were some measuring units that were difficult to convert or normalise, such as "a pinch" or "a whole/large (egg)". Moreover, sometimes an ingredient was a flour "to dust the surface". We chose to exclude those ingredients.
 
-Secondly, some recipes from the inspiring set did not have a rating. We solved this by adding our own rating, based on our own liking of the ingredients. Another problem with the recipes from the inspring set was the ingredients were measured in different units (e.g., cups, ounces, and grams). To achieve a recipe that takes into account a correct ratio of the ingredients, we converted all the units to grams and ml by using the library Sugarcube. This library already contained the density of the products water, sugar, flour, butter, and salt, therefore these ingredients were automatically converted. For the density of other ingredients, we categorised them in classes, such as liquid for milks and sauces, and gave them a general density based on information online. After catergorising all the ingredients, we added their densities to the library, whereafter the units were converted. 
 
 ## Reflection on the question of how to evaluate the creativity of your system 
 
-For the evaluation of our recipe generator we are thinking of doing the Lovelace 2.0 test, where an artifical system is evaluated by a set of constraints. 
-
-
-#### Puntjes waar we tegenaan liepen:
-amounts:
-- pinch of
-- whole as a unit (a whole egg)
-- dust the surface
+For the evaluation of our recipe generator we are thinking of doing the Lovelace 2.0 test, where an artifical system is evaluated by a set of constraints.
 
 
 
