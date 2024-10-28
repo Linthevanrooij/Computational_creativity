@@ -1,106 +1,31 @@
 [
-    {
-        "ingredient": "pickle",
-        "rating": null
-    },
-    {
-        "ingredient": "dutch cheese",
-        "rating": null
-    },
-    {
-        "ingredient": "cooked red beet",
-        "rating": null
-    },
-    {
-        "ingredient": "broccoli",
-        "rating": null
-    },
-    {
-        "ingredient": "carrot",
-        "rating": null
-    },
-    {
-        "ingredient": "feta",
-        "rating": null
-    },
-    {
-        "ingredient": "amsterdam onions",
-        "rating": null
-    },
-    {
-        "ingredient": "pancake syrup",
-        "rating": null
-    },
-    {
-        "ingredient": "coconut",
-        "rating": null
-    },
-    {
-        "ingredient": "cinnamon",
-        "rating": null
-    },
-    {
-        "ingredient": "lemon",
-        "rating": null
-    },
-    {
-        "ingredient": "lime",
-        "rating": null
-    },
-    {
-        "ingredient": "lychee",
-        "rating": null
-    },
-    {
-        "ingredient": "mocha/coffee",
-        "rating": null
-    },
-    {
-        "ingredient": "raspberry",
-        "rating": null
-    },
-    {
-        "ingredient": "pineapple",
-        "rating": null
-    },
-    {
-        "ingredient": "watermelon",
-        "rating": null
-    },
-    {
-        "ingredient": "cooked sweet onion",
-        "rating": null
-    },
-    {
-        "ingredient": "eggplant",
-        "rating": null
-    },
-    {
-        "ingredient": "ginger",
-        "rating": null
-    },
-    {
-        "ingredient": "avocado",
-        "rating": null
-    },
-    {
-        "ingredient": "honey",
-        "rating": null
-    },
-    {
-        "ingredient": "poppy seeds",
-        "rating": null
-    },
-    {
-        "ingredient": "sweet chili sauce",
-        "rating": null
-    },
-    {
-        "ingredient": "olives",
-        "rating": null
-    },
-    {
-        "ingredient": "chickpeas",
-        "rating": null
-    }
+    {"amount": 30.0, "ingredient": "pickle", "rating": 4.3, "unit": "g", "category": "Solids"},
+    {"amount": 100.0, "ingredient": "dutch cheese", "rating": 3.7, "unit": "g", "category": "Solids"},
+    {"amount": 100.0, "ingredient": "cooked red beet", "rating": 3.2, "unit": "g", "category": "Solids"},
+    {"amount": 150.0, "ingredient": "broccoli", "rating": 2.8, "unit": "g", "category": "Solids"},
+    {"amount": 150.0, "ingredient": "carrot", "rating": 3.0, "unit": "g", "category": "Solids"},
+    {"amount": 200.0, "ingredient": "feta", "rating": 4.0, "unit": "g", "category": "Solids"},
+    {"amount": 30.0, "ingredient": "amsterdam onions", "rating": 2.7, "unit": "g", "category": "Solids"},
+    {"amount": 6.0, "ingredient": "pancake syrup", "rating": 4.2, "unit": "g", "category": "Pastes"},
+    {"amount": 70.0, "ingredient": "coconut snippers", "rating": 4.2, "unit": "g", "category": "Biscuits"},
+    {"amount": 15.0, "ingredient": "cinnamon", "rating": 5.0, "unit": "g", "category": "Powder"},
+    {"amount": 20.0, "ingredient": "lime juice", "rating": 3.7, "unit": "ml", "category": "Other_liquids"},
+    {"amount": 150.0, "ingredient": "lychee", "rating": 4.0, "unit": "g", "category": "Solids"},
+    {"amount": 20.0, "ingredient": "mocha/coffee", "rating": 5.0, "unit": "g", "category": "Powder"},
+    {"amount": 200.0, "ingredient": "raspberry", "rating": 4.5, "unit": "g", "category": "Solids"},
+    {"amount": 180.0, "ingredient": "pineapple", "rating": 4.2, "unit": "g", "category": "Solids"},
+    {"amount": 180.0, "ingredient": "watermelon", "rating": 3.7, "unit": "g", "category": "Solids"},
+    {"amount": 40.0, "ingredient": "caramalised red onion", "rating": 2.0, "unit": "g", "category": "Solids"},
+    {"amount": 150.0, "ingredient": "eggplant", "rating": 3.3, "unit": "g", "category": "Solids"},
+    {"amount": 2.0, "ingredient": "fresh ginger", "rating": 4.7, "unit": "g", "category": "Solids"},
+    {"amount": 250.0, "ingredient": "avocado", "rating": 3.5, "unit": "g", "category": "Solids"},
+    {"amount": 15.0, "ingredient": "honey", "rating": 4.7, "unit": "ml", "category": "Pastes"},
+    {"amount": 50.0, "ingredient": "poppy seeds", "rating": 4.3, "unit": "g", "category": "Nori"},
+    {"amount": 50.0, "ingredient": "sweet chili sauce", "rating": 3.3, "unit": "ml", "category": "Other_liquids"},
+    {"amount": 100.0, "ingredient": "olives", "rating": 4.0, "unit": "g", "category": "Solids"},
+    {"amount": 200.0, "ingredient": "chickpeas", "rating": 3.0, "unit": "g", "category": "Solids"},
+    {"amount": 40.0, "ingredient": "soy sauce", "rating": 3.7, "unit": "ml", "category": "Other_liquids"},
+    {"amount": 2.0, "ingredient": "basil", "rating": 4.0, "unit": "g", "category": "Nori"},
+    {"amount": 5.0, "ingredient": "miso", "rating": 4.2, "unit": "g", "category": "Pastes"},
+    {"amount": 10.0, "ingredient": "teriyaki", "rating": 3.8, "unit": "ml", "category": "Other_liquids"}
 ]
