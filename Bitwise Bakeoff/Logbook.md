@@ -126,7 +126,51 @@ On top of that, there were some measuring units that were difficult to convert o
 
 ## Reflection on the question of how to evaluate the creativity of your system 
 
-For the evaluation of our recipe generator we are thinking of doing the Lovelace 2.0 test, where an artifical system is evaluated by a set of constraints.
+To evaluate our recipe generator, we applied the Lovelace 2.0 Test, in which an artificial system is assessed against a set of constraints that serve as our fitness criteria.
+
+Lovelace 2.0 Test
+In The Lovelace 2.0 Test, an artificial agent (a) is challenged as follows (Riedl, 2014).
+
+- a must create an artifact o of type t;
+- o must conform to a set of constraints C where ci ∈ C is any criterion expressible in natural language; 
+- a human evaluator h, having chosen t and C, is satisfied that o is a valid instance of t and meets C; and 
+- a human referee r determines the combination of t and C to not be unrealistic for an average human. 
+
+In applying the Lovelace 2.0 Test to our system, we structured our evaluation as follows:
+
+- The system (a) must generate a recipe (o) specifically for mochi (t).
+- The recipe (o) is required to meet the following constraints (C) without consideration for aesthetic judgments, and it need only achieve a level that an average unskilled individual could accomplish:
+    - The recipe must contain exactly one ingredient from the category ‘flour’.
+    - The recipe does not contain eggs or baking powder.
+    - The recipe contains a maximum of one ingredient from the category ‘butter’.
+    - The recipe must contain a minimum of one ingredient from the category ‘liquids’ OR ‘bindings’.
+    - The recipe contains a maximum of two ingredients from the category ‘liquids’.
+    - The recipe does not contain gluten, nuts or peanuts.
+    - The recipe must consist of 5 to 8 total ingredients.
+    - The average rating of ingredients used in the recipe must be between 4.7 and 5 (on a scale from 1 to 5).
+- The human evaluators (h) – ourselves, Emma, Linthe, and Sanne – assess the recipe (o) and confirm that it represents a valid recipe to make mochi (t) and complies with all specified constraints (C).
+- The human referee (r), a fellow student, must verify that the task of making mochi (t) with the given constraints (C) is realistic for an average person.
+
+
+### Evaluation human evaluators:
+
+According to Riedl (2014), the creativity of the artificial agent can be expressed as the mean number of constraints passed. Therefore, each human evaluator (h), Emma, Linthe, and Sanne, conducted a series of tests, increasing the number of constraints from 1 to 8. Each test required the system to generate a recipe that met the specified constraints. The testing was stopped when the system failed to meet the criteria. The highest number of constraints it successfully fulfilled was documented. The system’s creativity score was then calculated as the average number of constraints passed across all evaluators. This score indicates the system’s capability to handle increasingly complex requirements. 
+
+For this evaluation, all evaluators confirmed that the recipes met the eight essential constraints to create mochi. The system’s creativity score was calculated as follows: 
+
+(∑_i(n_i))/(|h|) =
+
+(8+8+8)/3 = 8 
+
+The system scored 8 out of 8, which demonstrates that the system successfully met all constraints in each test. Therefore, the evaluators collectively agreed that each recipe serves as a representative example of a mochi recipe.
+
+### Evaluation human referee:
+The human referee (r) ensures that the evaluators don’t assign the system an extremely difficult combination of t and C, which even for humans would be hard to achieve. A fellow student stated the following:
+
+‘’The constraints seem realistic. However, maybe it's a bit hard to understand what is highly rated mochi and what not.’’
+
+This indicates that while the constraints are generally appropriate, there is some ambiguity regarding the subjective criteria for what creates a highly-rated recipe. Ingredient ratings can be subjective and depend on personal preferences. Therefore, it is important to establish clear rating criteria. However, it can be argued that highly-rated ingredients reflect a typical human cooking experience, where ingredients are chosen subjectively, often based on individual taste preferences.
 
 
 
+Riedl, M. O. (2014). The Lovelace 2.0 Test of Artificial Creativity and Intelligence. arXiv (Cornell University). https://doi.org/10.48550/arxiv.1410.6142
